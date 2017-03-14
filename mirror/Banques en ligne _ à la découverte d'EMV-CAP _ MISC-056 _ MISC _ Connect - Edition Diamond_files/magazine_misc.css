@@ -1,0 +1,62 @@
+/* line 4, ../sass/_magazines.scss */
+h1, h2,
+.breadcrumb a {
+  color: #4d8700;
+}
+
+/* line 10, ../sass/_magazines.scss */
+.label,
+.navbar-inner,
+.container-navbar {
+  background: #4d8700;
+}
+
+/* line 17, ../sass/_magazines.scss */
+article.content-view-embed-inline h4 a,
+article.content-view-embed h4 a,
+article.content-view-embed h4,
+.carousel-caption h3 a {
+  color: #4d8700;
+}
+
+/* line 20, ../sass/_magazines.scss */
+.page_header #top-header-right .background-circle {
+  background: #4d8700;
+}
+
+/* line 23, ../sass/_magazines.scss */
+.navbar .nav > li > a:hover, .navbar .nav > li.on > a {
+  background: #365902;
+  border-right-color: #365902;
+}
+
+/* line 27, ../sass/_magazines.scss */
+.navbar .nav > li > a {
+  border-left-color: #4d8500;
+  border-right-color: #619912;
+}
+
+/* line 31, ../sass/_magazines.scss */
+#feedback_area a {
+  background: #4d8700;
+}
+
+/* line 34, ../sass/_magazines.scss */
+.bloc.recherche h3 {
+  color: #4d8700;
+}
+
+/* line 37, ../sass/_magazines.scss */
+a.label:hover {
+  background: #365902;
+}
+
+/* line 40, ../sass/_magazines.scss */
+.sidebar .bloc.summary h3 {
+  background: #4d8700;
+}
+
+/* line 43, ../sass/_magazines.scss */
+.bloc.article_sommaire:before {
+  border-right-color: #4d8700;
+}

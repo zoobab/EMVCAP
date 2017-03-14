@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<!-- saved from url=(0086)http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP -->
+<html lang="fr-FR"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/cb=gapi.loaded_1" async=""></script><script src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/cb=gapi.loaded_0" async=""></script><script type="text/javascript" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/widgets.js"></script><script type="text/javascript" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/plusone.js" gapi_processed="true"></script><script type="text/javascript" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/300lo.json"></script>
+<link rel="icon" href="http://connect.ed-diamond.com/MISC/MISC-056/favicon.ico" sizes="16x16" type="image/vnd.microsoft.icon">    
+														
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+			
+			  	    	  	  	    	  	    	  	    	  	    	  	
+		
+			    <title>	Banques en ligne : à la découverte d'EMV-CAP / MISC-056 / MISC / Connect - Edition Diamond
+	</title>
+	
+	    	
+	    
+	    	    	        <meta name="Content-Type" content="text/html; charset=utf-8">
+	
+	    	        <meta name="Content-language" content="fr-FR">
+	
+	    	    	    	        <meta name="author" content="eZ Systems">
+	    	
+	    	    	        <meta name="copyright" content="eZ Systems">
+	    	
+	    	    	        <meta name="description" content="Content Management System">
+	    	
+	    	    	        <meta name="keywords" content="Administration réseau, Administration système, People-Interview, Sécurité, OpenSSL, SSL, HTTPS, diff, chiffrement, bash, statistiques, vulnérabilités, Administration réseau, Administration système, Programmation, Sécurité, Web, Administration réseau, Administration système, Audio-vidéo, People-Interview, Sécurité, Web, Administration réseau, Administration système, Environnement de bureau, Utilitaires, Web, Administration réseau, Administration système, Utilitaires, Administration réseau, Administration système, Environnement de bureau, Administration réseau, Administration système, Environnement de bureau, Programmation, Utilitaires, Administration réseau, Administration système, Audio-vidéo, Embarqué, Sécurité, Web">
+	    	
+	    	
+	    <meta name="MSSmartTagsPreventParsing" content="TRUE">
+	    <meta name="generator" content="eZ Publish">
+	
+		    		
+		    
+<link rel="Home" href="http://connect.ed-diamond.com/" title="Page d&#39;accueil de Edition Diamond">
+<link rel="Index" href="http://connect.ed-diamond.com/">
+<link rel="Top" href="http://connect.ed-diamond.com/" title="	Banques en ligne : à la découverte d&#39;EMV-CAP / MISC-056 / MISC / Connect - Edition Diamond
+	">
+<link rel="Search" href="http://connect.ed-diamond.com/content/advancedsearch" title="Recherche Edition Diamond">
+<link rel="Shortcut icon" href="http://connect.ed-diamond.com/extension/owskeletor/design/owskeletor/images/favicon.ico" type="image/x-icon">
+<link rel="Copyright" href="http://connect.ed-diamond.com/ezinfo/copyright">
+<link rel="Author" href="http://connect.ed-diamond.com/ezinfo/about">
+<link rel="Alternate" type="application/rss+xml" title="RSS" href="http://connect.ed-diamond.com/rss/feed/my_feed">
+
+<script async="" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/analytics.js"></script><script type="text/javascript">
+(function() {
+    var head = document.getElementsByTagName('head')[0];
+    var printNode = document.createElement('link');
+    printNode.rel = 'Alternate';
+    printNode.href = "/layout/set/print/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP" + document.location.search;
+    printNode.media = 'print';
+    printNode.title = "Version imprimable";
+    head.appendChild(printNode);
+})();
+</script><link rel="Alternate" href="http://connect.ed-diamond.com/layout/set/print/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP" media="print" title="Version imprimable">		
+		<link rel="stylesheet" type="text/css" href="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/a975fc6067b99b7d58dc6b836d8920e5_all.css">
+
+<link rel="stylesheet" type="text/css" href="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/css">
+<link rel="stylesheet" type="text/css" href="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/css(1)">
+<link rel="stylesheet" type="text/css" href="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/b8182a67b72fcf844d5ad37406b24e5c_all.css">
+
+<link rel="stylesheet" type="text/css" href="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/magazine_misc.css">
+	
+<script type="text/javascript" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/185440133b4cf40353deb1131868ccfd.js" charset="utf-8"></script>
+
+
+<style type="text/css">.at-icon{fill:#fff;border:0}.at-icon-wrapper{display:inline-block;overflow:hidden}a .at-icon-wrapper{cursor:pointer}.at-rounded,.at-rounded-element .at-icon-wrapper{border-radius:12%}.at-circular,.at-circular-element .at-icon-wrapper{border-radius:50%}.addthis_32x32_style .at-icon{width:2pc;height:2pc}.addthis_24x24_style .at-icon{width:24px;height:24px}.addthis_20x20_style .at-icon{width:20px;height:20px}.addthis_16x16_style .at-icon{width:1pc;height:1pc}#at16lb{display:none;position:absolute;top:0;left:0;width:100%;height:100%;z-index:1001;background-color:#000;opacity:.001}#at_complete,#at_error,#at_share,#at_success{position:static!important}.at15dn{display:none}#at15s,#at16p,#at16p form input,#at16p label,#at16p textarea,#at_share .at_item{font-family:arial,helvetica,tahoma,verdana,sans-serif!important;font-size:9pt!important;outline-style:none;outline-width:0;line-height:1em}* html #at15s.mmborder{position:absolute!important}#at15s.mmborder{position:fixed!important;width:250px!important}#at15s{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);float:none;line-height:1em;margin:0;overflow:visible;padding:5px;text-align:left;position:absolute}#at15s a,#at15s span{outline:0;direction:ltr;text-transform:none}#at15s .at-label{margin-left:5px}#at15s .at-icon-wrapper{width:1pc;height:1pc;vertical-align:middle}#at15s .at-icon{width:1pc;height:1pc}.at4-icon{display:inline-block;background-repeat:no-repeat;background-position:top left;margin:0;overflow:hidden;cursor:pointer}.addthis_16x16_style .at4-icon,.addthis_default_style .at4-icon,.at4-icon,.at-16x16{width:1pc;height:1pc;line-height:1pc;background-size:1pc!important}.addthis_32x32_style .at4-icon,.at-32x32{width:2pc;height:2pc;line-height:2pc;background-size:2pc!important}.addthis_24x24_style .at4-icon,.at-24x24{width:24px;height:24px;line-height:24px;background-size:24px!important}.addthis_20x20_style .at4-icon,.at-20x20{width:20px;height:20px;line-height:20px;background-size:20px!important}.at4-icon.circular,.circular .at4-icon,.circular.aticon{border-radius:50%}.at4-icon.rounded,.rounded .at4-icon{border-radius:4px}.at4-icon-left{float:left}#at15s .at4-icon{text-indent:20px;padding:0;overflow:visible;white-space:nowrap;background-size:1pc;width:1pc;height:1pc;background-position:top left;display:inline-block;line-height:1pc}.addthis_vertical_style .at4-icon,.at4-follow-container .at4-icon{margin-right:5px}html>body #at15s{width:250px!important}#at15s.atm{background:none!important;padding:0!important;width:10pc!important}#at15s_inner{background:#fff;border:1px solid #fff;margin:0}#at15s_head{position:relative;background:#f2f2f2;padding:4px;cursor:default;border-bottom:1px solid #e5e5e5}.at15s_head_success{background:#cafd99!important;border-bottom:1px solid #a9d582!important}.at15s_head_success a,.at15s_head_success span{color:#000!important;text-decoration:none}#at15s_brand,#at15sptx,#at16_brand{position:absolute}#at15s_brand{top:4px;right:4px}.at15s_brandx{right:20px!important}a#at15sptx{top:4px;right:4px;text-decoration:none;color:#4c4c4c;font-weight:700}#at15sptx:hover{text-decoration:underline}#at16_brand{top:5px;right:30px;cursor:default}#at_hover{padding:4px}#at_hover .at_item,#at_share .at_item{background:#fff!important;float:left!important;color:#4c4c4c!important}#at_share .at_item .at-icon-wrapper{margin-right:5px}#at_hover .at_bold{font-weight:700;color:#000!important}#at_hover .at_item{width:7pc!important;padding:2px 3px!important;margin:1px;text-decoration:none!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover{margin:0!important}#at_hover .at_item.athov,#at_hover .at_item:focus,#at_hover .at_item:hover,#at_share .at_item.athov,#at_share .at_item:hover{background:#f2f2f2!important;border:1px solid #e5e5e5;color:#000!important;text-decoration:none}.ipad #at_hover .at_item:focus{background:#fff!important;border:1px solid #fff}.at15t{display:block!important;height:1pc!important;line-height:1pc!important;padding-left:20px!important;background-position:0 0;text-align:left}.addthis_button,.at15t{cursor:pointer}.addthis_toolbox a.at300b,.addthis_toolbox a.at300m{width:auto}.addthis_toolbox a{margin-bottom:5px;line-height:initial}.addthis_toolbox.addthis_vertical_style{width:200px}.addthis_button_facebook_like .fb_iframe_widget{line-height:100%}.addthis_button_facebook_like iframe.fb_iframe_widget_lift{max-width:none}.addthis_toolbox a.addthis_button_counter,.addthis_toolbox a.addthis_button_facebook_like,.addthis_toolbox a.addthis_button_facebook_send,.addthis_toolbox a.addthis_button_facebook_share,.addthis_toolbox a.addthis_button_foursquare,.addthis_toolbox a.addthis_button_google_plusone,.addthis_toolbox a.addthis_button_linkedin_counter,.addthis_toolbox a.addthis_button_pinterest_pinit,.addthis_toolbox a.addthis_button_stumbleupon_badge,.addthis_toolbox a.addthis_button_tweet{display:inline-block}.at-share-tbx-element .google_plusone_iframe_widget>span>div{vertical-align:top!important}.addthis_toolbox span.addthis_follow_label{display:none}.addthis_toolbox.addthis_vertical_style span.addthis_follow_label{display:block;white-space:nowrap}.addthis_toolbox.addthis_vertical_style a{display:block}.addthis_toolbox.addthis_vertical_style.addthis_32x32_style a{line-height:2pc;height:2pc}.addthis_toolbox.addthis_vertical_style .at300bs{margin-right:4px;float:left}.addthis_toolbox.addthis_20x20_style span{line-height:20px}.addthis_toolbox.addthis_32x32_style span{line-height:2pc}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact,.addthis_toolbox.addthis_pill_combo_style a{float:left}.addthis_toolbox.addthis_pill_combo_style a.addthis_button_tweet{margin-top:-2px}.addthis_toolbox.addthis_pill_combo_style .addthis_button_compact .at15t_compact{margin-right:4px}.addthis_default_style .addthis_separator{margin:0 5px;display:inline}div.atclear{clear:both}.addthis_default_style .addthis_separator,.addthis_default_style .at4-icon,.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300bs,.addthis_default_style .at300m{float:left}.at300b img,.at300bo img{border:0}a.at300b .at4-icon,a.at300m .at4-icon{display:block}.addthis_default_style .at300b,.addthis_default_style .at300bo,.addthis_default_style .at300m{padding:0 2px}.at300b,.at300bo,.at300bs,.at300m{cursor:pointer}.addthis_button_facebook_like.at300b:hover,.addthis_button_facebook_like.at300bs:hover,.addthis_button_facebook_send.at300b:hover,.addthis_button_facebook_send.at300bs:hover{opacity:1}.addthis_20x20_style .at15t,.addthis_20x20_style .at300bs{overflow:hidden;display:block;height:20px!important;width:20px!important;line-height:20px!important}.addthis_32x32_style .at15t,.addthis_32x32_style .at300bs{overflow:hidden;display:block;height:2pc!important;width:2pc!important;line-height:2pc!important}.at300bs{overflow:hidden;display:block;background-position:0 0;height:1pc;width:1pc;line-height:1pc!important}.addthis_default_style .at15t_compact,.addthis_default_style .at15t_expanded{margin-right:4px}#at_share .at_item{width:123px!important;padding:4px;margin-right:2px;border:1px solid #fff}#at16p{background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);z-index:10000001;position:absolute;top:50%;left:50%;width:300px;padding:10px;margin:0 auto;margin-top:-185px;margin-left:-155px;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#5e5e5e}#at_share{margin:0;padding:0}#at16pt{position:relative;background:#f2f2f2;height:13px;padding:5px 10px}#at16pt a,#at16pt h4{font-weight:700}#at16pt h4{display:inline;margin:0;padding:0;font-size:9pt;color:#4c4c4c;cursor:default}#at16pt a{position:absolute;top:5px;right:10px;color:#4c4c4c;text-decoration:none;padding:2px}#at15sptx:focus,#at16pt a:focus{outline:thin dotted}#at15s #at16pf a{top:1px}#_atssh{width:1px!important;height:1px!important;border:0!important}.atm{width:10pc!important;padding:0;margin:0;line-height:9pt;letter-spacing:normal;font-family:arial,helvetica,tahoma,verdana,sans-serif;font-size:9pt;color:#444;background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABtJREFUeNpiZGBgaGAgAjAxEAlGFVJHIUCAAQDcngCUgqGMqwAAAABJRU5ErkJggg==);padding:4px}.atm-f{text-align:right;border-top:1px solid #ddd;padding:5px 8px}.atm-i{background:#fff;border:1px solid #d5d6d6;padding:0;margin:0;box-shadow:1px 1px 5px rgba(0,0,0,.15)}.atm-s{margin:0!important;padding:0!important}.atm-s a:focus{border:transparent;outline:0;-webkit-transition:none;transition:none}#at_hover.atm-s a,.atm-s a{display:block;text-decoration:none;padding:4px 10px;color:#235dab!important;font-weight:400;font-style:normal;-webkit-transition:none;transition:none}#at_hover.atm-s .at_bold{color:#235dab!important}#at_hover.atm-s a:hover,.atm-s a:hover{background:#2095f0;text-decoration:none;color:#fff!important}#at_hover.atm-s .at_bold{font-weight:700}#at_hover.atm-s a:hover .at_bold{color:#fff!important}.atm-s a .at-label{vertical-align:middle;margin-left:5px;direction:ltr}.at_PinItButton{display:block;width:40px;height:20px;padding:0;margin:0;background-image:url(//s7.addthis.com/static/t00/pinit00.png);background-repeat:no-repeat}.at_PinItButton:hover{background-position:0 -20px}.addthis_toolbox .addthis_button_pinterest_pinit{position:relative}.at-share-tbx-element .fb_iframe_widget span{vertical-align:baseline!important}#at16pf{height:auto;text-align:right;padding:4px 8px}.at-privacy-info{position:absolute;left:7px;bottom:7px;cursor:pointer;text-decoration:none;font-family:helvetica,arial,sans-serif;font-size:10px;line-height:9pt;letter-spacing:.2px;color:#666}.at-privacy-info:hover{color:#000}.body .wsb-social-share .wsb-social-share-button-vert{padding-top:0;padding-bottom:0}.body .wsb-social-share.addthis_counter_style .addthis_button_tweet.wsb-social-share-button{padding-top:40px}.body .wsb-social-share.addthis_counter_style .addthis_button_google_plusone.wsb-social-share-button{padding-top:0}.body .wsb-social-share.addthis_counter_style .addthis_button_facebook_like.wsb-social-share-button{padding-top:21px}@media print{#at4-follow,#at4-share,#at4-thankyou,#at4-whatsnext,#at4m-mobile,#at15s,.at4,.at4-recommended{display:none!important}}@media screen and (max-width:400px){.at4win{width:100%}}@media screen and (max-height:700px) and (max-width:400px){.at4-thankyou-inner .at4-recommended-container{height:122px;overflow:hidden}.at4-thankyou-inner .at4-recommended .at4-recommended-item:first-child{border-bottom:1px solid #c5c5c5}}</style><style type="text/css">.at-branding-logo{font-family:helvetica,arial,sans-serif;text-decoration:none;font-size:10px;display:inline-block;margin:2px 0;letter-spacing:.2px}.at-branding-logo .at-branding-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAMAAAC67D+PAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////+GlNUkcc1QAAAB1JREFUeNpiYIQDBjQmAwMmkwEM0JnY1WIxFyDAABGeAFEudiZsAAAAAElFTkSuQmCC")}.at-branding-logo .at-branding-icon,.at-branding-logo .at-privacy-icon{display:inline-block;height:10px;width:10px;margin-left:4px;margin-right:3px;margin-bottom:-1px;background-repeat:no-repeat}.at-branding-logo .at-privacy-icon{background-image:url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAMAAABR24SMAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABhQTFRF8fr9ot/xXcfn2/P5AKva////////AKTWodjhjAAAAAd0Uk5T////////ABpLA0YAAAA6SURBVHjaJMzBDQAwCAJAQaj7b9xifV0kUKJ9ciWxlzWEWI5gMF65KUTv0VKkjVeTerqE/x7+9BVgAEXbAWI8QDcfAAAAAElFTkSuQmCC")}.at-branding-logo span{text-decoration:none}.at-branding-logo .at-branding-addthis,.at-branding-logo .at-branding-powered-by{color:#666}.at-branding-logo .at-branding-addthis:hover{color:#333}.at-cv-with-image .at-branding-addthis,.at-cv-with-image .at-branding-addthis:hover{color:#fff}a.at-branding-logo:visited{color:initial}.at-branding-info{display:inline-block;padding:0 5px;color:#666;border:1px solid #666;border-radius:50%;font-size:10px;line-height:9pt;opacity:.7;transition:all .3s ease;text-decoration:none}.at-branding-info span{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.at-branding-info:before{content:'i';font-family:Times New Roman}.at-branding-info:hover{color:#0780df;border-color:#0780df}</style><style type="text/css"></style><script type="text/javascript" charset="utf-8" async="" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/button.5b89bce04f133ec533459161985cf461.js"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}.fb_reposition{overflow:hidden;position:relative}.fb_invisible{display:none}.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}.fb_reset>div{overflow:hidden}.fb_link img{border:none}@keyframes fb_transform{from{opacity:0;transform:scale(.95)}to{opacity:1;transform:scale(1)}}.fb_animate{animation:fb_transform .3s forwards}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}.fb_reset .fb_dialog_legacy{overflow:visible}.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.fb_dialog_content{background:#fff;color:#333}.fb_dialog_close_icon{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px}.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}.fb_dialog_close_icon:hover{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_close_icon:active{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yL/r/s816eWC-2sl.gif)}.fb_dialog_loader{background-color:#f6f7f9;border:1px solid #606060;font-size:24px;padding:20px}.fb_dialog_top_left,.fb_dialog_top_right,.fb_dialog_bottom_left,.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}.fb_dialog_top_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}.fb_dialog_top_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}.fb_dialog_bottom_left{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}.fb_dialog_bottom_right{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}.fb_dialog_vert_left,.fb_dialog_vert_right,.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}.fb_dialog_vert_left,.fb_dialog_vert_right{width:10px;height:100%}.fb_dialog_vert_left{margin-left:-10px}.fb_dialog_vert_right{right:0;margin-right:-10px}.fb_dialog_horiz_top,.fb_dialog_horiz_bottom{width:100%;height:10px}.fb_dialog_horiz_top{margin-top:-10px}.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}.fb_dialog_iframe{line-height:0}.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #365899;color:#fff;font-size:14px;font-weight:bold;margin:0}.fb_dialog_content .dialog_title>span{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/Cou7n-nqK52.gif) no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}.fb_dialog.fb_dialog_mobile.loading{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/ya/r/3rhSv5V8j3o.gif) white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}.fb_dialog.fb_dialog_mobile.loading.centered{width:auto;height:auto;min-height:initial;min-width:initial;background:none}.fb_dialog.fb_dialog_mobile.loading.centered #fb_dialog_loader_spinner{width:100%}.fb_dialog.fb_dialog_mobile.loading.centered .fb_dialog_content{background:none}.loading.centered #fb_dialog_loader_close{color:#fff;display:block;padding-top:20px;clear:both;font-size:18px}#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;bottom:0;left:0;right:0;top:0;width:100%;min-height:100%;z-index:10000}#fb-root #fb_dialog_ipad_overlay.hidden{display:none}.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%}.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px}.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px}.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6), color-stop(.5, #355492), to(#2A4887));border:1px solid #29487d;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset, rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}.fb_dialog_content .dialog_content{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}.fb_dialog_content .dialog_footer{background:#f6f7f9;border:1px solid #555;border-top-color:#ccc;height:40px}#fb_dialog_loader_close{float:left}.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}#fb_dialog_loader_spinner{animation:rotateSpinner 1.2s linear infinite;background-color:transparent;background-image:url(https://static.xx.fbcdn.net/rsrc.php/v3/yD/r/t-wz8gw1xG1.png);background-repeat:no-repeat;background-position:50% 50%;height:24px;width:24px}@keyframes rotateSpinner{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}
+.fb_iframe_widget{display:inline-block;position:relative}.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}.fb_iframe_widget iframe{position:absolute}.fb_iframe_widget_fluid_desktop,.fb_iframe_widget_fluid_desktop span,.fb_iframe_widget_fluid_desktop iframe{max-width:100%}.fb_iframe_widget_fluid_desktop iframe{min-width:220px;position:relative}.fb_iframe_widget_lift{z-index:1}.fb_hide_iframes iframe{position:relative;left:-10000px}.fb_iframe_widget_loader{position:relative;display:inline-block}.fb_iframe_widget_fluid{display:inline}.fb_iframe_widget_fluid span{width:100%}.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}.fb_iframe_widget_loader .FB_Loader{background:url(https://static.xx.fbcdn.net/rsrc.php/v3/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}</style></head>
+<body>
+	
+                                            <script>
+                
+                (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+                })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+                
+                ga('create', 'UA-22350734-6', 'auto');
+                ga('send', 'pageview');
+                ga('set', '&uid', '10');
+
+            </script>
+                    
+    <div class="container_all">
+        <!-- Header area: START -->
+    
+<header class="page_header">
+<div class="container">
+	<div class="row-fluid" id="top-header-right">
+	    
+	    <div class="span3 text-left hidden-phone">           <a href="http://connect.ed-diamond.com/"><img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/logo-connect-def_vectorMISC.png" alt="Connect"></a>        </div>
+	    
+	    
+                <div class="span2 text-right magazines_count hidden-phone">
+    <ul class="unstyled">
+            <li><strong>2580</strong> articles dans GNU/Linux Magazine</li>
+                <li><strong>176</strong> articles dans Hackable</li>
+                <li><strong>1605</strong> articles dans Linux Pratique</li>
+                    </ul>
+</div>
+	    <div class="span2 text-right magazines_count hidden-phone">
+    <ul class="unstyled">
+            <li><strong>1094</strong> articles dans Linux Essentiel</li>
+                <li><strong>831</strong> articles dans MISC</li>
+                <li><strong>189</strong> articles dans Open Silicium</li>        <li><strong>701</strong> articles dans Unix Garden</li>
+    </ul>
+</div>	    
+            	<div class="span1"> 
+            <a class="btn-identification" href="http://connect.ed-diamond.com/user/login" title="Identifiez vous">
+            	<span class="background-circle"><i class="icon-large icon-user icon-white"></i></span>
+            	<div>Identifiez vous</div>
+            </a>
+        </div>
+        <div class="span1">
+            <a class="btn-inscription" href="https://boutique.ed-diamond.com/authentification" title="S&#39;inscrire">
+            	<span class="background-circle"><i class="icon-large icon-pencil icon-white"></i></span>
+            	<div>S'inscrire</div>
+            </a>
+        </div>
+        	            
+        <div class="span3 top-header-search text-right">
+		    <form class="header-top-form-search" action="http://connect.ed-diamond.com/content/search">
+		        <div class="input-append">
+				    <input class="search-query" id="appendedInputButton" type="text" name="SearchText" placeholder="Votre recherche" value="">
+				    <button type="submit" class="btn"><i class="icon-large icon-search"></i></button>
+				</div>
+		    </form>
+	    </div>
+	</div>
+</div>                <div class="container-navbar">
+	<div class="container">
+	    <div class="navbar hidden-phone">
+	        <div class="navbar-inner">
+	            <div class="nav-collapse collapse navbar-responsive-collapse">
+	                <ul class="nav">        <li><a href="http://connect.ed-diamond.com/GNU-Linux-Magazine">
+
+    
+        
+    
+                                                                                                                                            <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/GNU-Linux-Magazine_top_menu.png" width="89" height="45" style="border: 0px  ;" alt="GNU/Linux Magazine" title="GNU/Linux Magazine">
+             
+    
+    
+    
+    </a></li>            <li><a href="http://connect.ed-diamond.com/Hackable">
+
+    
+        
+    
+                                                                                                                                            <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Hackable_top_menu.png" width="89" height="45" style="border: 0px  ;" alt="Hackable" title="Hackable">
+             
+    
+    
+    
+    </a></li>            <li><a href="http://connect.ed-diamond.com/Linux-Pratique">
+
+    
+        
+    
+                                                                                                                                            <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Linux-Pratique_top_menu.png" width="89" height="45" style="border: 0px  ;" alt="Linux Pratique" title="Linux Pratique">
+             
+    
+    
+    
+    </a></li>            <li><a href="http://connect.ed-diamond.com/Linux-Essentiel">
+
+    
+        
+    
+                                                                                                                                            <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Linux-Essentiel_top_menu.png" width="89" height="45" style="border: 0px  ;" alt="Linux Essentiel" title="Linux Essentiel">
+             
+    
+    
+    
+    </a></li>            <li class="on"><a href="http://connect.ed-diamond.com/MISC">
+
+    
+        
+    
+                                                                                                                                            <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/MISC_top_menu.png" width="89" height="45" style="border: 0px  ;" alt="MISC" title="MISC">
+             
+    
+    
+    
+    </a></li>            <li><a href="http://connect.ed-diamond.com/Open-Silicium">
+
+    
+        
+    
+                                                                                                                                            <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Open-Silicium_top_menu.png" width="89" height="45" style="border: 0px  ;" alt="Open Silicium" title="Open Silicium">
+             
+    
+    
+    
+    </a></li>        
+<li class="page-top-menu"><a href="http://connect.ed-diamond.com/A-propos">A propos</a></li>	                </ul>
+	            </div>
+	        </div>
+	    </div>
+	    <div class="navbar phone-menu visible-phone">
+            <div class="navbar-inner">
+                <div class="container">
+	                <button data-target=".phone-menu-entries" data-toggle="collapse" class="btn btn-navbar" type="button">
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+			            <span class="icon-bar"></span>
+	                </button>
+	                <a href="http://connect.ed-diamond.com/" class="brand">Connect</a>
+	            </div>
+	            <div class="nav-collapse collapse phone-menu-entries">
+	                <ul class="nav navbar-nav">
+			                    <li><a href="http://connect.ed-diamond.com/GNU-Linux-Magazine">GNU/Linux Magazine</a></li>
+			                    <li><a href="http://connect.ed-diamond.com/Hackable">Hackable</a></li>
+			                    <li><a href="http://connect.ed-diamond.com/Linux-Pratique">Linux Pratique</a></li>
+			                    <li><a href="http://connect.ed-diamond.com/Linux-Essentiel">Linux Essentiel</a></li>
+			                    <li><a href="http://connect.ed-diamond.com/MISC">MISC</a></li>
+			                    <li><a href="http://connect.ed-diamond.com/Open-Silicium">Open Silicium</a></li>
+			                    <li><a href="http://connect.ed-diamond.com/A-propos">A propos</a></li>
+			                </ul>
+			    </div>
+			</div>
+        </div></div></div></header>
+	</div>
+
+
+        <!-- Header area: END -->        <div class="container">
+    <!-- Path area: START -->
+        <div class="breadcrumb-wrapper nav-collapse">
+    
+<!-- Path content: START --><ul class="breadcrumb">
+                                                        <li>
+            <a href="http://connect.ed-diamond.com/Accueil">Accueil</a> <span class="divider">»</span>
+        </li>
+                                                            <li>
+            <a href="http://connect.ed-diamond.com/MISC">MISC</a> <span class="divider">»</span>
+        </li>
+                                                            <li>
+            <a href="http://connect.ed-diamond.com/MISC/MISC-056">MISC-056</a> <span class="divider">»</span>
+        </li>
+                                                <li class="active">
+            Banques en ligne : à la découverte d'EMV-CAP
+        </li>
+            </ul><!-- Path content: END -->
+</div>
+    <!-- Path area: END -->
+    </div>
+    
+        
+<div class="container container-body">
+
+    
+    <!-- DEBUT ARTICLE -->
+<article>
+    <div class="row">
+        <div class="span12">
+            
+            <div class="row">
+                <!-- DEB col gauche -->
+                <div class="span8">
+
+                    <div class="bloc article_sommaire">
+                        
+                        <h1>Banques en ligne : à la découverte d'EMV-CAP</h1>
+                
+                            <div class="muted infos_line">
+    <div>
+	    MISC
+	    	    <span class="numero">n°
+056</span>
+	    	     | <span class="date">juillet 2011</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/9591-szikora_jean_pierre">Jean-Pierre Szikora</a>
+         -                     <a href="http://connect.ed-diamond.com/auteur/view/9799-teuwen_philippe">Philippe Teuwen</a>
+        </span>	    <br>
+	     <span class="cc"><a href="http://creativecommons.org/licenses/by-nc-nd/2.0/fr/" target="_blank" class="external_link"><img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/cc.png" alt="Creative Commons"></a></span>	     
+	
+	
+		    	        	            	        	    	
+<ul id="ezsr_rating_234938" class="ezsr-star-rating activated">
+    <li id="ezsr_rating_percent_234938" class="ezsr-current-rating" style="width:0%;">Actuellement <span>0</span> sur 5 étoiles</li>
+        <li>
+                <a data-toggle="tooltip" data-placement="top" href="JavaScript:void(0);" id="ezsr_234938_9_1" title="Identifiez vous pour noter cette page." class="ezsr-stars-1 tooltip_starratingg" rel="nofollow" onfocus="this.blur();"><i class="icon-star-empty"></i></a>
+            </li>
+        <li>
+                <a data-toggle="tooltip" data-placement="top" href="JavaScript:void(0);" id="ezsr_234938_9_2" title="Identifiez vous pour noter cette page." class="ezsr-stars-2 tooltip_starratingg" rel="nofollow" onfocus="this.blur();"><i class="icon-star-empty"></i></a>
+            </li>
+        <li>
+                <a data-toggle="tooltip" data-placement="top" href="JavaScript:void(0);" id="ezsr_234938_9_3" title="Identifiez vous pour noter cette page." class="ezsr-stars-3 tooltip_starratingg" rel="nofollow" onfocus="this.blur();"><i class="icon-star-empty"></i></a>
+            </li>
+        <li>
+                <a data-toggle="tooltip" data-placement="top" href="JavaScript:void(0);" id="ezsr_234938_9_4" title="Identifiez vous pour noter cette page." class="ezsr-stars-4 tooltip_starratingg" rel="nofollow" onfocus="this.blur();"><i class="icon-star-empty"></i></a>
+            </li>
+        <li>
+                <a data-toggle="tooltip" data-placement="top" href="JavaScript:void(0);" id="ezsr_234938_9_5" title="Identifiez vous pour noter cette page." class="ezsr-stars-5 tooltip_starratingg" rel="nofollow" onfocus="this.blur();"><i class="icon-star-empty"></i></a>
+            </li>
+    </ul>
+<div class="clearfix"></div>
+<div class="hide" id="ezsr_average_234938">0</div>
+
+<div id="ezsr_just_rated_234938" class="ezsr-just-rated text-success hide">Merci d'avoir participé !</div>
+<div id="ezsr_has_rated_234938" class="ezsr-has-rated text-info hide">Vous avez déjà noté cette page, vous ne pouvez la noter qu'une fois !</div>
+<div id="ezsr_changed_rating_234938" class="ezsr-changed-rating text-success hide">Votre note a été changée, merci de votre participation !</div>
+	    	</div>
+        <div>
+        
+		    	        	    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22people-interview%22&amp;activeFacets[attr_category_lk:Domaines]=people-interview"> <span class="label"> People-Interview</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22s%C3%A9curit%C3%A9%22&amp;activeFacets[attr_category_lk:Domaines]=s%C3%A9curit%C3%A9"> <span class="label"> Sécurité</span></a>            </div>
+       
+</div>                        
+                                                <div class="chapeau">
+La plupart des banques belges déploient actuellement à grande échelle (certaines depuis plusieurs années déjà) un nouveau mode d'authentification pour autoriser leur clientèle d'accéder à leurs services via Internet. Elles distribuent un petit appareil ressemblant à une calculette pourvu d'un clavier numérique, d'un écran et d'un lecteur de carte à puce. Cet appareil, en combinaison avec la carte bancaire, offre la possibilité de s'authentifier sur le site web de la banque et de signer des transactions en ligne, sur ce même site ou sur un site marchand. Cet article vous entraîne dans la découverte du fonctionnement et de l'implémentation du protocole EMV-CAP, puisque tel est son nom. Dans de nombreux pays, les banques distribuent un appareil semblable, qui a fait l'objet de plusieurs études par des experts reconnus en sécurité, notamment en Angleterre et aux Pays-Bas. Nous comparerons ainsi le fonctionnement et les options prises par les banques de ces pays. Nous passerons en revue certaines attaques publiées contre EMV afin de déterminer si elles s'appliquent également dans le cadre d'EMV-CAP. Grâce à la compréhension du protocole EMV-CAP, nous dissiperons certaines incertitudes quant au fonctionnement interne de ces appareils et nous montrerons qu'il existe des moyens qui rendent ce système encore plus sûr. Une émulation logicielle est également mise à disposition pour ceux qui désirent expérimenter.</div>
+                                                <div id="article_body">
+                           
+<a name="eztoc234932_1" id="eztoc234932_1"></a><div name="1.LestandardEMV" data-unique="1.LestandardEMV"></div><h2>1. Le standard EMV</h2><a name="eztoc234932_1_1" id="eztoc234932_1_1"></a><div name="1.1.Présentation" data-unique="1.1.Présentation"></div><h3>1.1. Présentation</h3><p>Le standard EMV voit le jour en 1994 et devient rapidement la référence de facto pour la communication entre la puce d'une carte bancaire (de débit ou de crédit) d'une part et les terminaux de vente ou distributeurs de billets d'autre part. Les initiales EMV proviennent du nom des 3 firmes l'ayant conçu et adopté initialement, à savoir Europay, MasterCard et Visa. Les spécifications de ce standard sont maintenues par EMVCo <b>[1]</b> et mises à disposition gratuitement sur leur site web.</p><p>D'après les derniers chiffres diffusés par EMVCo, plus d'un milliard de cartes de paiement incorporant la norme EMV sont en circulation. Au sein de l'Europe, un espace de paiement unifié a été mis en place (<i>Single Euro Payments Area</i> ou SEPA) et c'est la norme EMV qui a été choisie afin d'assurer l'interopérabilité entre les cartes et les terminaux de paiement.</p><p>Outre cet aspect d'interopérabilité, un autre argument mis en avant pour convaincre les organismes qui en étaient toujours à l'usage de la seule piste magnétique est la diminution du nombre de fraudes, notamment celles liées au simple clonage de ladite piste. Ainsi, les statistiques publiées l'année passée par l'association anglaise UK Cards attestent d'une réduction de moitié des pertes du secteur financier, liées à la contrefaçon des cartes bancaires entre 2008 et 2009 <b>[2]</b>. Cela est rendu possible grâce à une authentification des transactions financières par des moyens cryptographiques mis en œuvre par une puce intégrée à la carte. Enfin, disposer au sein de la puce de plusieurs applications distinctes ouvre la voie à de nouveaux développements et à des évolutions, même durant la vie d'une carte. Moneo, Maestro et Visa Electron sont déjà des applications rencontrées actuellement.</p><p>Une extension propriétaire de ce standard a été développée afin de bénéficier de la sécurité offerte par EMV dans des situations où la carte n'est pas directement disponible dans un environnement contrôlé tel qu'un distributeur de billets ou un terminal de paiement. Cette extension, appelée EMV-CAP, autorise l'usage d'une carte EMV sur Internet sans nécessité de changements logiciels sur les ordinateurs personnels des utilisateurs. Le but est de garder la même carte pour les opérations en ligne et pour payer ses achats ou pour retirer de l'argent dans un distributeur de billets.</p><a name="eztoc234932_1_2" id="eztoc234932_1_2"></a><div name="1.2.TransactionEMV" data-unique="1.2.TransactionEMV"></div><h3>1.2. Transaction EMV</h3><p>Avant d'aborder le cœur du sujet, il nous semble indispensable de décrire sommairement une transaction EMV, car l'appareil d'authentification et de signature EMV-CAP (auquel nous ferons référence par la suite sous la simple dénomination <i>calculette</i>) réalise une transaction très proche d'une transaction EMV habituelle. Dans ce contexte, notre calculette est comparable à un terminal de paiement <i>offline.</i></p><a name="eztoc234932_1_2_1" id="eztoc234932_1_2_1"></a><div name="1.2.1.Aperçu" data-unique="1.2.1.Aperçu"></div><h4>1.2.1. Aperçu</h4><p>Les 4 volumes décrivant le protocole EMV (EMV Books, <b>[1]</b>) représentent une quantité énorme d'informations, et particulièrement indigestes par des renvois incessants d'un chapitre à l'autre. Une autre difficulté est également que le protocole EMV offre de nombreuses alternatives et c'est aux intégrateurs de faire les choix définitifs tout en gardant le coût des cartes le plus bas possible. C'est ainsi que la norme ne décrit pas moins de 5 possibilités d'authentifier le porteur de la carte (une d'elles est d'ailleurs de ne pas le faire&nbsp;!), elle différencie les transactions <i>online</i> et <i>offline</i> et propose 3 types d'authentification de la carte. La norme EMV n'est finalement qu'une grande boîte à outils... Néanmoins, une transaction se résume comme suit (voir figure 1)&nbsp;:</p>
+<div class="img-polaroid image_with_caption" style="width: 161px;"><div class=""><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+            
+
+    
+                                                
+    
+                                                                                                                                    <a href="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP#imageLightbox25826" data-toggle="lightbox">        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/EMVversusCAP21_large.jpg" width="161" height="300" style="border: 0px solid ;" alt="EMVversusCAP2" title="EMVversusCAP2">
+        </a>     
+    
+    
+    
+            </div>
+        </div>
+	<div id="imageLightbox25826" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div class="lightbox-content">
+	        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/EMVversusCAP21.jpg" alt="">
+	    </div>
+	</div>
+</div></div><div class="caption text-center muted"><div class="customtag legende">
+  <div class="content"><p>Fig. 1 : Schéma simplifié d'une transaction EMV selon les termes des EMV Books. Certaines étapes ne sont pas effectuées dans une transaction EMV-CAP. Elles sont différenciées par un fond de couleur.</p></div>
+</div></div></div><a name="eztoc234932_1_2_2" id="eztoc234932_1_2_2"></a><div name="1.2.2.Sélectiondel&#39;application" data-unique="1.2.2.Sélectiondel&#39;application"></div><h4>1.2.2. Sélection de l'application</h4><p>Lors de l'introduction de la carte dans un terminal de paiement, les étapes initiales du dialogue, ainsi que l'envoi de l'ATR (<i>Answer-To-Reset</i>, réponse initiale) et la mise à niveau du protocole de communication se font classiquement selon la norme ISO7816-3 <b>[3]</b>. Le terminal tente ensuite de choisir l'application sur la carte en fonction d'une liste préétablie. En cas d'échec de la sélection d'une application, le terminal tente de sélectionner la suivante dans sa liste. Ce n'est qu'en cas d'épuisement complet de cette liste que la carte sera finalement refusée par le terminal. Il existe également une autre méthode optionnelle appelée <i>Payment System Environment</i> (PSE), par laquelle le terminal reçoit une liste d'applications en lisant le fichier 1PAY.SYS.DDF01 de la carte. La communication avec celle-ci se fait toujours dans le respect de la norme ISO7816-4 <b>[4]</b>.</p><a name="eztoc234932_1_2_3" id="eztoc234932_1_2_3"></a><div name="1.2.3.Initialisationdelatransaction" data-unique="1.2.3.Initialisationdelatransaction"></div><h4>1.2.3. Initialisation de la transaction</h4><p>Suite à la sélection de l'application et à l'envoi de la commande <i>Get Processing Options</i> qui sert à initier la transaction, la carte renvoie une première série d'informations, telles que l'AIP (<i>Application Interchange Profile</i>), qui indique au terminal les différentes opérations à faire pour mener à bien une transaction, et l'AFL (<i>Application File Locator</i>), qui indique la liste des données disponibles au niveau de l'application.</p><a name="eztoc234932_1_2_4" id="eztoc234932_1_2_4"></a><div name="1.2.4.Lectureetauthentificationdesdonnées" data-unique="1.2.4.Lectureetauthentificationdesdonnées"></div><h4>1.2.4. Lecture et authentification des données</h4><p>Le terminal va lire ces données sur la carte, qui contiennent par exemple le numéro de la carte, la date d'expiration et la liste des données que la carte attend pour faire effectivement une transaction (<i>Card Risk Management Data Object Lists</i>, CDOL1 et CDOL2). Le terminal valide ensuite les données reçues par un des mécanismes suivants&nbsp;: SDA (<i>Static Data Authentication</i>), où les données de l'application sont signées par la banque lors de la création de la carte&nbsp;; DDA (<i>Dynamic Data Authentication</i>), où en outre la carte contient elle-même une paire de clés RSA et est capable de signer un challenge provenant du terminal <b>[5]</b>, et enfin, CDA (<i>Combined DDA &amp; application cryptogram generation</i>) où le challenge est combiné à la transaction proprement dite.</p><a name="eztoc234932_1_2_5" id="eztoc234932_1_2_5"></a><div name="1.2.5.Authentificationduporteur" data-unique="1.2.5.Authentificationduporteur"></div><h4>1.2.5. Authentification du porteur</h4><p>Vient ensuite l'authentification du porteur de la carte, selon l'une des méthodes listées et supportées par la carte. Par exemple, l'usage du PIN est supporté soit en clair, soit chiffré. Mais l'absence de vérification par un PIN est aussi reconnue comme une des méthodes disponibles (et utilisée par exemple aux péages autoroutiers). Le protocole EMV prévoit avant et après la vérification du porteur d'autres vérifications (pour les citer : <i>Processing Restrictions</i>, <i>Terminal Risk Management</i>, <i>Terminal Action Analysis</i>), mais sur lesquelles nous n'allons pas nous attarder car elles ne sont pas mises en œuvre par notre calculette.</p><a name="eztoc234932_1_2_6" id="eztoc234932_1_2_6"></a><div name="1.2.6.Transactionproprementdite" data-unique="1.2.6.Transactionproprementdite"></div><h4>1.2.6. Transaction proprement dite</h4><p>Tout est en place pour que la carte génère un code d'authentification de message (MAC, <i>Message Authentication Code</i>) grâce au secret qu'elle contient (cette étape porte le nom de <i>First Card Action Analysis</i>). Pour ce faire, le terminal envoie les différentes données demandées par la carte (cf. CDOL1). En réponse, la carte génère un cryptogramme de 8 octets qui porte le nom d'ARQC (<i>Authorization Request Cryptogram</i>) dans les opérations en ligne.</p><p>Ce calcul se fait en deux temps. Tout d'abord, une clé éphémère de 128 bits est dérivée de la clé symétrique principale de la carte, elle aussi de 128 bits. La méthode de dérivation recommandée par EMVCo est d'utiliser triple-DES. Ensuite, la carte calcule un MAC reposant aussi sur un chiffrement triple-DES avec la clé éphémère sur non seulement les données présentées, mais également sur une série de données internes à la carte. Le chiffrement par blocs étant triple-DES, la longueur effective des clés est donc en réalité de 112 bits.</p><p>Ce cryptogramme est envoyé à la banque qui le valide en temps réel. Après validation, la banque envoie sa réponse à la carte par le terminal pour faire une <i>Second Card Action Analysis</i>. Ceci clôture l'échange et la carte sait que la transaction a été acceptée par la banque. La carte met à jour son historique s'il en existe un.</p><a name="eztoc234932_2" id="eztoc234932_2"></a><div name="2.EtcetEMV-CAP?" data-unique="2.EtcetEMV-CAP?"></div><h2>2. Et cet EMV-CAP ?</h2><a name="eztoc234932_2_3" id="eztoc234932_2_3"></a><div name="2.1.Contexte" data-unique="2.1.Contexte"></div><h3>2.1. Contexte</h3><p>Diverses méthodes existent pour authentifier un utilisateur qui désire faire des opérations bancaires par Internet. Les plus répandues sont les simples logins et mots de passe, ou les modules cryptographiques dont le fonctionnement consiste à répondre à un challenge affiché à l'écran, ou encore les dispositifs générant des OTP (<i>one-time password</i>). En France, certaines banques font usage de SMS pour demander confirmation d'un ordre de virement. La tendance actuelle est d'effectuer ces opérations hors de l'enceinte de l'ordinateur personnel pour être ainsi partiellement hors de portée des codes malveillants, <i>keyloggers</i> et autres joyeusetés et, cerise sur le gâteau, de fonctionner parfaitement quel que soit l'OS. Initialement, certaines banques proposaient des calculettes ne nécessitant pas de carte, telles que le Digipass, pour s'authentifier et signer des transactions financières. Aujourd'hui, les banques préfèrent distribuer des calculettes équipées d'un lecteur de carte à puce afin d'utiliser la carte bancaire pour cette nouvelle fonction (figure 2). La calculette est produite en masse et, contrairement aux Digipass et RSA SecureID, ne nécessite pas de personnalisation car elle ne contient aucune clé secrète, diminuant ainsi les coûts de fabrication et de gestion.</p><a name="eztoc234932_2_4" id="eztoc234932_2_4"></a><div name="2.2.Spécifications" data-unique="2.2.Spécifications"></div><h3>2.2. Spécifications</h3><p>À l'initiative de MasterCard, le <i>Chip Authentication Protocol</i> (CAP) est développé avec l'idée de réutiliser en grande partie les éléments du protocole EMV. Visa a suivi en dénommant son produit <i>Dynamic Passcode Authentication</i> (DPA) <b>[6]</b>. Malheureusement, les spécifications de ce protocole ne sont pas publiées et il n'est pas aisé d'obtenir des informations précises sur son fonctionnement. En consultant le site d'un des fabricants de la calculette <b>[7]</b>, nous découvrons qu'il existe plusieurs versions du protocole, mais sans obtenir des renseignements complémentaires.</p><a name="eztoc234932_2_5" id="eztoc234932_2_5"></a><div name="2.3.Utilisation" data-unique="2.3.Utilisation"></div><h3>2.3. Utilisation</h3><a name="eztoc234932_2_5_7" id="eztoc234932_2_5_7"></a><div name="2.3.1.Modesopératoires" data-unique="2.3.1.Modesopératoires"></div><h4>2.3.1. Modes opératoires</h4><p>Le fonctionnement de cette calculette se résume de la façon suivante. Lorsque l'utilisateur souhaite s'authentifier auprès du site web de sa banque ou effectuer une opération bancaire telle qu'un transfert, il est redirigé vers une page d'instructions à suivre. Après avoir inséré la carte dans le lecteur, l'utilisateur choisit parmi plusieurs modes. Nous en avons dénombré trois, mais tous ne se retrouvent pas nécessairement sur toutes les calculettes, car les banques n'en utilisent en général que deux (voir ci-dessous). L'utilisateur est ensuite invité à fournir son PIN ainsi que d'éventuelles données complémentaires apparaissant sur la page web de la banque et composées d'un ou de plusieurs nombres. La calculette fournit alors une réponse sous la forme d'un jeton, un <i>one-time password</i> (OTP) de 6 à 16 chiffres (8 sur les modèles observés), qui doit être introduit sur la page web. Le serveur de la banque valide alors cette réponse et accepte d'authentifier l'utilisateur ou d'effectuer l'opération bancaire demandée. Notons que certains sites marchands redirigent le client au moment du paiement vers le site de sa banque par une fenêtre pop-up. Il est ainsi invité à se servir de sa calculette et de sa carte pour finaliser la transaction.</p>
+<div class="img-polaroid image_with_caption" style="width: 700px;"><div class=""><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+            
+
+    
+                                                
+    
+                                                                                                                                    <a href="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP#imageLightbox25828" data-toggle="lightbox">        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Calculettes61_large.jpg" width="700" height="221" style="border: 0px solid ;" alt="Calculettes6" title="Calculettes6">
+        </a>     
+    
+    
+    
+            </div>
+        </div>
+	<div id="imageLightbox25828" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div class="lightbox-content">
+	        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Calculettes61.jpg" alt="">
+	    </div>
+	</div>
+</div></div><div class="caption text-center muted"><div class="customtag legende">
+  <div class="content"><p>Fig. 2 : Quelques calculettes utilisées par les banques belges. La dernière est du type Identify/Sign et les autres du type M1/M2..</p></div>
+</div></div></div><a name="eztoc234932_2_5_8" id="eztoc234932_2_5_8"></a><div name="2.3.2.Mode1" data-unique="2.3.2.Mode1"></div><h4>2.3.2. Mode 1</h4><p>Utilisé pour l'authentification. La page de la banque donne un challenge qui doit être saisi sur la calculette pour obtenir la réponse attendue. Ce mode est accessible par la touche <b>[M1]</b> des calculettes des banques qui l’utilisent.</p><a name="eztoc234932_2_5_9" id="eztoc234932_2_5_9"></a><div name="2.3.3.Mode2" data-unique="2.3.3.Mode2"></div><h4>2.3.3. Mode 2</h4><p>Employé pour l'authentification par certaines banques n'utilisant pas le mode précédent. Aucun challenge n'est nécessaire et ceci correspond à la création d'un jeton d'authentification. Ce mode est accessible grâce à la touche <b>[Identify]</b> de cet autre type de calculette.</p><a name="eztoc234932_2_5_10" id="eztoc234932_2_5_10"></a><div name="2.3.4.Mode2+TDS(TransactionDataSigning)" data-unique="2.3.4.Mode2+TDS(TransactionDataSigning)"></div><h4>2.3.4. Mode 2 + TDS (Transaction Data Signing)</h4><p>Afin de valider une transaction financière, la banque donne une ou des valeurs, telles que le montant ou le numéro de compte du bénéficiaire, qui doivent être fournies à la calculette pour obtenir la réponse attendue. Ce mode est accessible par pression de la touche <b>[Sign]</b> ou <b>[M2]</b> des calculettes. Habituellement, la banque se contente de deux valeurs, mais la calculette supporte jusqu'à 10 nombres de 10 chiffres, ce qui serait nettement plus laborieux pour l'utilisateur ! En outre, ce mode a été observé auprès de certaines banques pour valider une transaction avec un site marchand selon le protocole <i>3-D Secure</i> <b>[8]</b>.</p><div class="customtag bloc_note">
+  <div class="title">Note</div>
+  <div class="content"><p>Lorsque la notion de signature est utilisée dans le contexte EMV-CAP, il ne s'agit pas de signature cryptographique asymétrique, mais bien d'un <i>Message Authentication Code</i> (MAC) à clé symétrique assurant l'intégrité du message et l'authentification de l'émetteur. Il n'est donc pas question d'y associer des concepts propres à la cryptographie à clé publique tels que la non-répudiation d'une signature.</p></div>
+</div><a name="eztoc234932_2_5_11" id="eztoc234932_2_5_11"></a><div name="2.3.5.Interopérabilité" data-unique="2.3.5.Interopérabilité"></div><h4>2.3.5. Interopérabilité</h4><p>Nous avons constaté qu'en Belgique, les calculettes ne sont pas spécifiques à une banque déterminée (bien que son nom y soit inscrit) et les opérations sont correctement validées lorsqu'on fait des essais avec des calculettes provenant d'autres banques. Un organisme certifie ces appareils <b>[9]</b>, ce qui justifie probablement que le mode de fonctionnement soit identique malgré une dénomination des touches parfois différente. Ainsi, le Mode 1 est accessible sur les calculettes dépourvues de touche [M1], en pressant la touche [Menu] et en sélectionnant explicitement le Mode 1. Le Mode 2 est quant à lui accessible sur les calculettes M1/M2 en pressant [M2], mais sans introduire la moindre donnée, ou en pressant la touche [M1] et en introduisant un challenge composé d'un ou plusieurs zéros, ou même en utilisant la touche [M1] sans fournir de challenge (tout cela revenant au même, comme nous le verrons plus en détail).</p><a name="eztoc234932_3" id="eztoc234932_3"></a><div name="3.Analysed&#39;EMV-CAP" data-unique="3.Analysed&#39;EMV-CAP"></div><h2>3. Analyse d'EMV-CAP</h2><a name="eztoc234932_3_6" id="eztoc234932_3_6"></a><div name="3.1.Premièretentative" data-unique="3.1.Premièretentative"></div><h3>3.1. Première tentative</h3><p>En parcourant la littérature disponible sur la Toile, outre quelques brevets très instructifs <b>[10]</b>, nous avons retenu deux documents qui proposent une analyse fouillée du protocole. D'abord un article émanant du groupe de Ross Anderson de Cambridge <b>[11]</b> qui, après avoir écouté des échanges entre une calculette et une carte, montre que celui-ci est très proche d'une transaction EMV, tout en ayant un certain nombre de différences qui ont été analysées et détaillées. Ainsi, bien qu'EMV et EMV-CAP puissent partager une même application au sein de la carte, elles existent généralement comme deux applications distinctes, partageant néanmoins un certain nombre de données dans un ou plusieurs fichiers communs. L'autre document est un travail de fin d'études réalisé à la Radboud Universiteit aux Pays-Bas <b>[12]</b>, analysant les spécificités du système bancaire néerlandais. Malheureusement, la génération de certaines signatures (Mode 2 + TDS) n'est pas mentionnée dans l'article de Cambridge et, bien qu'utilisée par une banque néerlandaise, n'a pas pu être expliquée, ni reproduite dans le second document.</p><p>Partant de ces premiers éléments et tenant compte des spécificités des cartes bancaires belges (notamment les réponses reçues aux requêtes EMV), nous avons écrit un premier script censé jouer le rôle de la calculette. Nous avons bien pu obtenir une réponse de la carte bancaire interrogée, mais toute tentative de connexion au site bancaire échouait. Il était clair que nous ne disposions donc pas de suffisamment d'éléments pour reproduire une transaction EMV-CAP correcte.</p><a name="eztoc234932_3_7" id="eztoc234932_3_7"></a><div name="3.2.BusPirate" data-unique="3.2.BusPirate"></div><h3>3.2. Bus Pirate</h3><p>L'écoute d'un échange entre une calculette EMV-CAP et une carte devenait dès lors incontournable. L'échange entre un lecteur et une carte, décrit dans la norme ISO7816, a les caractéristiques suivantes : la carte ne fait que répondre aux commandes reçues, en <i>half-duplex</i> selon un protocole série et de manière asynchrone malgré la présence d'un signal d'horloge. Il est facile d'intercepter physiquement les échanges à partir de montages rudimentaires (figures 3 et 4)&nbsp;!</p>
+<div class="img-polaroid image_with_caption" style="width: 489px;"><div class=""><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+            
+
+    
+                                                
+    
+                                                                                                                                    <a href="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP#imageLightbox25827" data-toggle="lightbox">        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/puce_label_sansVcc1_large.jpg" width="489" height="300" style="border: 0px solid ;" alt="puce_label_sansVcc" title="puce_label_sansVcc">
+        </a>     
+    
+    
+    
+            </div>
+        </div>
+	<div id="imageLightbox25827" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div class="lightbox-content">
+	        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/puce_label_sansVcc1.jpg" alt="">
+	    </div>
+	</div>
+</div></div><div class="caption text-center muted"><div class="customtag legende">
+  <div class="content"><p>Fig. 3 : Contacts ISO et principaux signaux utilisés</p></div>
+</div></div></div>
+<div class="img-polaroid image_with_caption" style="width: 441px;"><div class=""><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+            
+
+    
+                                                
+    
+                                                                                                                                    <a href="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP#imageLightbox25824" data-toggle="lightbox">        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Carte-Sonde-BP-Flou2-W1_large.jpg" width="441" height="300" style="border: 0px solid ;" alt="Carte-Sonde-BP-Flou2-W" title="Carte-Sonde-BP-Flou2-W">
+        </a>     
+    
+    
+    
+            </div>
+        </div>
+	<div id="imageLightbox25824" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div class="lightbox-content">
+	        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Carte-Sonde-BP-Flou2-W1.jpg" alt="">
+	    </div>
+	</div>
+</div></div><div class="caption text-center muted"><div class="customtag legende">
+  <div class="content"><p>Fig. 4 : Montage artisanal pour accéder aux signaux de la carte. La carte-sonde de couleur verte renvoie les signaux venant de la calculette vers une carte EMV-CAP. Ces signaux sont alors interceptés au moyen d'un Bus Pirate.</p></div>
+</div></div></div><p>Nous avons à disposition la ligne série, bidirectionnelle et d'un niveau électrique ne dépassant jamais la plage 0-5V. Ce signal n'est toutefois pas exploitable directement par un port série ordinaire, même avec une adaptation des niveaux électriques, car les vitesses de transfert ne correspondent généralement pas aux standards habituels. La solution viendra de Bus Pirate <b>[13]</b>, une petite merveille de l'Open Hardware disponible pour quelques dizaines d'euros.</p><div class="customtag bloc_note">
+  <div class="title">Note</div>
+  <div class="content"><p>Il est toujours préférable de disposer du dernier firmware (5.10 lors de la rédaction de cet article) ou à défaut d'une version égale ou supérieure à 5.2 pour pouvoir utiliser l'UART (Universal asynchronous receiver/transmitter, le module responsable de la gestion du port série) à des vitesses arbitraires.</p></div>
+</div><p>Dans <b>[11]</b> et <b>[12]</b>, les équipes de Cambridge et de Radboud avaient programmé des cartes de développement FPGA, un poil plus cher et plus compliqué. Il est également possible de modifier les données à la volée si vous êtes prêt à bidouiller dans le firmware, ouvert, naturellement.</p><a name="eztoc234932_3_8" id="eztoc234932_3_8"></a><div name="3.3.Mesuredelafréquenced&#39;horloge" data-unique="3.3.Mesuredelafréquenced&#39;horloge"></div><h3>3.3. Mesure de la fréquence d'horloge</h3><p>La vitesse de transmission de la ligne série dépend de la fréquence du signal d'horloge. La première chose à faire est donc de la mesurer. Pas besoin de fréquencemètre, le Bus Pirate l'intègre ! Nous connectons donc le signal <i>Clock</i> (signal d'horloge) à la sonde AUX, le signal <i>Ground</i> (masse) à la sonde GND. La mesure est réalisée après l'insertion de la carte-sonde dans la calculette et après avoir enfoncé la touche [M2] ou [Identify] pendant l'affichage du message <span class="customtag code_par">PIN ?</span> à l'écran.</p><div class="customtag console">
+  <div class="content"><p>HiZ&gt;<span class="customtag code_em">i</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Bus Pirate v3b</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Firmware v5.10 (r559) Bootloader v4.3</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>DEVID:0x0447 REVID:0x3043 (24FJ64GA002 B5)</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>http://dangerousprototypes.com</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>HiZ&gt;<span class="customtag code_em">f</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>AUX Frequency: 1,495,552 Hz</p></div>
+</div><a name="eztoc234932_3_9" id="eztoc234932_3_9"></a><div name="3.4.Configurationdel&#39;UART" data-unique="3.4.Configurationdel&#39;UART"></div><h3>3.4. Configuration de l'UART</h3><p>Pour obtenir la vitesse du port série, le résultat obtenu doit être divisé par 372. Ce chiffre correspond au diviseur qui est utilisé dans la plupart des cartes et qui est aussi défini dans la norme ISO7816. Afin d'écouter un échange à une vitesse arbitraire, il faut calculer un coefficient <i>Baud Rate Generator</i> BRG=(4000000/baudrate)-1. La valeur obtenue est ensuite utilisée pour programmer l'UART du microcontrôleur du Bus Pirate, un PIC de Microchip. Voici les commandes pour écouter un échange lorsque l'horloge est cadencée à 1495552 Hz (BRG égal à 994), comme dans l'exemple repris ci-dessus. Nous connectons le signal IO à la sonde du Bus Pirate portant le label MISO/RX et correspondant à la broche RX d'un port série lorsque le mode UART est utilisé.</p><div class="customtag console">
+  <div class="content"><p>HiZ&gt;<span class="customtag code_em">m3</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Set serial port speed: (bps)</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>...</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>10. BRG raw value</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>(1)&gt;<span class="customtag code_em">10</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Raw value for BRG</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>(34)&gt;<span class="customtag code_em">994</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Data bits and parity:</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>1. 8, NONE *default</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>2. 8, EVEN</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>3. 8, ODD</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>4. 9, NONE</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>(1)&gt;<span class="customtag code_em">2</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Stop bits:</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>1. 1 *default</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>2. 2</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>(1)&gt;<span class="customtag code_em">1</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Receive polarity:</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>1. Idle 1 *default</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>2. Idle 0</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>(1)&gt;<span class="customtag code_em">1</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>Select output type:</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>1. Open drain (H=Hi-Z, L=GND)</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>2. Normal (H=3.3V, L=GND)</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>(1)&gt;<span class="customtag code_em">1</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>UART&gt;</p></div>
+</div><a name="eztoc234932_3_10" id="eztoc234932_3_10"></a><div name="3.5.Écoutedesdonnées" data-unique="3.5.Écoutedesdonnées"></div><h3>3.5. Écoute des données</h3><p>Démarrer et arrêter l'écoute des données en transit sur l'IO se fait au moyen des commandes suivantes&nbsp;:</p><div class="customtag console">
+  <div class="content"><p>UART&gt;<span class="customtag code_em">[</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>UART LIVE DISPLAY, } TO STOP</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>...</p></div>
+</div><div class="customtag console">
+  <div class="content"><p>UART&gt;<span class="customtag code_em">]</span></p></div>
+</div><div class="customtag console">
+  <div class="content"><p>LIVE DISPLAY STOPPED</p></div>
+</div><p>Les données apparaissent un octet à la fois. Il suffit d'un simple script pour les remettre en forme et rendre la lecture plus confortable. Il est aussi nécessaire de dissocier les données envoyées par la calculette de celles qui sont émises par la carte en se référant à la structure des APDU (blocs d'informations envoyées ou reçues par la carte <b>[4]</b>). Il faut également supprimer quelques octets présents dans la couche de communication sous l'APDU et dépendant du mode, T=0 ou T=1, décrits dans la norme ISO7816. Dans le cas d'un échange T=0 (mode orienté caractère), qui est celui auquel nous avons dû faire face, la carte répète l'octet de l'instruction (INS) avant que la calculette n'envoie ses données. Ainsi, lorsqu'elle envoie la C-APDU «&nbsp;00 A4 04 00 07 A0 00 00 00 04 80 02&nbsp;» (un <span class="customtag code_par">SelectApp</span> que nous expliquerons plus loin), nous observons la suite d'octets suivante : «&nbsp;00 A4 04 00 <b>A4</b> 07 A0 00 00 00 04 80 02&nbsp;».</p><div class="customtag bloc_note">
+  <div class="title">Note</div>
+  <div class="content"><p>Si votre trace contient une erreur de parité (-p) sur chaque octet, vous écoutez probablement une carte qui utilise la convention inverse. Un niveau électrique bas représente le 1 logique et, attention, les bits de chaque octet sont alors inversés par rapport à une ligne série standard&nbsp;: le bit de poids fort arrive en premier. Ainsi, le premier octet «&nbsp;03(-p)&nbsp;» est en fait l'octet «&nbsp;3F&nbsp;» (0x03=0b00000011 vs. 0x3F=0b00111111) par lequel la carte indique... qu'elle travaille en convention inverse. Certaines cartes françaises changent de convention après un <i>warm reset</i>.</p></div>
+</div><a name="eztoc234932_3_11" id="eztoc234932_3_11"></a><div name="3.6.Exempled&#39;unetransactionEMV-CAPenMode2" data-unique="3.6.Exempled&#39;unetransactionEMV-CAPenMode2"></div><h3>3.6. Exemple d'une transaction EMV-CAP en Mode 2</h3><a name="eztoc234932_3_11_12" id="eztoc234932_3_11_12"></a><div name="3.6.1.Trace" data-unique="3.6.1.Trace"></div><h4>3.6.1. Trace</h4><p>Voici un exemple d'échange entre une calculette et une carte de débit belge utilisée pour s'authentifier auprès du site web de la banque. L'opération demandée fut la plus simple opération EMV-CAP : un Mode 2 via la touche [Identify] (ou [M2] sans donnée). Pour une description complète des APDU échangés et de leur décomposition, nous invitons le lecteur à utiliser notre script <b>[15]</b> au moyen de la commande suivante&nbsp;: <span class="customtag code_par">EMV-CAP.py --mode 2 --reader foo:cap_be --verbose --debug</span>. Il fonctionnera avec une carte «&nbsp;virtuelle&nbsp;», en fait avec des traces préenregistrées et anonymisées. Si vous ne désirez pas installer le script, nous mettons également à disposition <b>[15]</b> la trace numérotée obtenue lors de l'exécution de cette commande et à laquelle nous nous référons en indiquant les lignes.</p><a name="eztoc234932_3_11_13" id="eztoc234932_3_11_13"></a><div name="3.6.2.Sélectiondel&#39;application" data-unique="3.6.2.Sélectiondel&#39;application"></div><h4>3.6.2. Sélection de l'application</h4><p>Après un signal électrique sur la ligne <i>Reset</i>, la première réponse de la carte est l'ATR (<i>Answer To Reset</i>, ligne 1). Grâce à cette donnée, la calculette choisit les paramètres de communication avec la carte.</p><p>La calculette va tenter de se connecter à l'application A0000000038002 (VisaRemAuthen), qui est l'application de Visa implémentant DPA (<i>Dynamic Passcode Authentication</i>), leur version d'EMV-CAP (ligne 6). Celle-ci n'existe pas dans la carte testée et renvoie donc un message d'erreur (ligne 7). La calculette essaie ensuite l'application suivante (ligne 8). Il s'agit de A0000000048002 (SecureCode Aut), l'application EMV-CAP de MasterCard qui, elle, existe bien. La carte répond donc en une suite d'octets (ligne 9) qui sont des données sous la forme tag-longueur-valeur (TLV, selon l'encodage BER défini dans le standard ASN.1 <b>[16]</b>). Précisons qu'il ne s'agit pas pour autant d'une carte MasterCard, mais simplement d'une carte supportant EMV-CAP.</p><div class="customtag bloc_note">
+  <div class="title">Note</div>
+  <div class="content"><p>Les tags TLV utilisés dans un contexte EMV sont décrits dans les EMV Books. Il existe en outre des outils tels que <a class="customtag url external_link" href="http://www.emvlab.org/" target="_blank">http://www.emvlab.org</a>, qui proposent une liste compilée de la plupart des tags rencontrés et même un parseur en ligne&nbsp;! Par exemple, le TLV «&nbsp;5F2D 02 6672&nbsp;» indique la préférence de langue comme étant 0x66 0x72 = «&nbsp;fr&nbsp;».</p></div>
+</div><p>On y retrouve l'ID de l'application (AID, lignes 19-23), une structure <i>Processing Options DOL</i> (PDOL) définissant les options à fournir pour la commande suivante (lignes 30-42), spécifiées sous forme de couple tag-longueur (l'option à fournir est ici le type de terminal), les préférences de langue (lignes 43-49), ici juste «&nbsp;fr&nbsp;», mais il est possible d'en avoir plusieurs&nbsp;: «&nbsp;fren&nbsp;», la nationalité du détenteur de la carte (lignes 62-67), et enfin, d'autres données spécifiques à la banque (lignes 68-74).</p><a name="eztoc234932_3_11_14" id="eztoc234932_3_11_14"></a><div name="3.6.3.Initialisationdelatransaction" data-unique="3.6.3.Initialisationdelatransaction"></div><h4>3.6.3. Initialisation de la transaction</h4><p>Pour pouvoir débuter la transaction EMV, la calculette transmet la commande <span class="customtag code_par">GetProcessingOptions</span> (lignes 134-143) avec 0x34 comme valeur de type de terminal (en fonction du PDOL décrit plus haut), ce qui signifie d'une part que le terminal (la calculette) est détenu par le porteur de la carte, et d'autre part, qu'il fonctionne en mode <i>online</i> puisqu'il y a un dialogue entre la banque et le terminal, même si ce sont nos petits doigts qui font le travail. La carte répond avec l'<i>Application Interchange Profile</i> (AIP, lignes 151-156) et l'<i>Application File Locator</i> (AFL, lignes 158-162). Ce dernier contient une liste de pointeurs codés sur quatre octets vers des fichiers. Les 5 premiers bits du premier octet contiennent le SFI (une forme de raccourci vers le fichier), les deuxième et troisième octets indiquent une fourchette de <i>records</i> à lire dans ce fichier et le quatrième indique s'ils sont signés. Ainsi <span class="customtag code_em">08040400</span> invite à lire le quatrième record du fichier SFI=1.</p><a name="eztoc234932_3_11_15" id="eztoc234932_3_11_15"></a><div name="3.6.4.Lecturedesdonnées" data-unique="3.6.4.Lecturedesdonnées"></div><h4>3.6.4. Lecture des données</h4><p>La calculette lit alors les records mentionnés dans l'AFL (ligne 166). L'AFL de cette carte contient deux fichiers, dont le premier est commun avec l'application bancaire EMV classique et contient entre autres le numéro de la carte (lignes 174-179), les dates d'émission (lignes 187-192) et d'expiration (lignes 193-199), une copie de la piste magnétique numéro 2 (lignes 200-205), le pays d'émission (lignes 206-211), la monnaie (lignes 212-217) et sa représentation (lignes 218-224), ici l'euro et 2 chiffres pour les centimes. Le second fichier, propre à EMV-CAP, contient les données indispensables pour la suite des opérations : la liste des méthodes possibles d'authentification du porteur de la carte (lignes 242-247), un filtre appelé <i>Issuer Proprietary Bitmap</i> (IPB, lignes 236-241) dont le rôle sera détaillé dans les paragraphes suivants, et deux listes CDOL1 (lignes 248-314) et CDOL2 (lignes 315-394) qui définissent les données à fournir afin de demander à la carte de calculer un premier cryptogramme (selon CDOL1) et ensuite un second (selon CDOL2). Les données à fournir sont calquées sur EMV, mais la plupart d'entre elles (date, gestion du risque du terminal, etc.) sont simplement nulles car dépourvues de sens dans le contexte d'EMV-CAP. L'une d'elles est cependant importante pour certains modes : l'<i>Unpredictable Number</i> (UN). Nous y reviendrons. Rappelons qu'il n'y a pas d'authentification des données lues, contrairement à une vraie transaction EMV. C'est à cette étape que nous comprenons la différence avec <b>[11]</b> et <b>[12]</b>&nbsp;: les CDOL des cartes belges réclament des données supplémentaires dont nous ignorions les valeurs à fournir, notamment les <i>Cardholder Verification Method Results</i>.</p><a name="eztoc234932_3_11_16" id="eztoc234932_3_11_16"></a><div name="3.6.5.Authentificationduporteur" data-unique="3.6.5.Authentificationduporteur"></div><h4>3.6.5. Authentification du porteur</h4><p>La calculette demande ensuite l'état du PIN (ligne 397). La réponse indique qu'il reste 3 essais possibles (lignes 398-406). Le PIN introduit sur le clavier est envoyé à la carte en utilisant un simple codage BCD (ligne 409). La réponse retournée par la carte indique que le PIN est correct (ligne 410).</p><a name="eztoc234932_3_11_17" id="eztoc234932_3_11_17"></a><div name="3.6.6.Transactionproprementdite" data-unique="3.6.6.Transactionproprementdite"></div><h4>3.6.6. Transaction proprement dite</h4><p>Enfin, nous arrivons au cœur de la transaction&nbsp;: la calculette demande à la carte de générer un cryptogramme (GenerateAC) en présentant les données comme demandées dans le CDOL1 (lignes 411-422). Ces données sont fixes et l'<i>Unpredictable Number</i> (ligne 419) est nul, puisque dans le Mode 2 que nous sommes occupés à décortiquer, il n'y a pas de challenge. Le cryptogramme demandé est en fait un <i>Authorization Request Cryptogram</i> (ARQC) tel qu'on les retrouve dans les transactions EMV en ligne. En cas de véritable transaction, il aurait été envoyé à la banque, mais ici le protocole EMV-CAP détourne l'ARQC de son usage initial.</p><p>Selon les EMV Books, les cartes contiennent une gestion du risque intégrée laissée à la discrétion de l'organisme bancaire (par exemple pour évaluer le risque lié à des erreurs dans le protocole de transaction, à des montants anormalement élevés ou à de trop fréquentes transactions <i>offline</i>) et n'apprécieraient pas trop qu'on initie plusieurs transactions EMV sans jamais les finir. C'est pourquoi, pour conclure la session EMV-CAP, la calculette envoie une seconde requête pour un <i>Application Authentication Cryptogram</i> (AAC) signifiant à la carte que la transaction EMV est annulée (lignes 457-470).</p><p>Bref, pour la carte, rien ne s'est passé, mais nous avons soutiré une réponse signée de la carte qui va être transformée en un simple nombre à 8 chiffres, le jeton, et affichée sur l'écran de la calculette pour être transmise à la banque. La banque pourra ainsi authentifier le porteur. Nous verrons dans un instant comment se calcule le jeton à partir de la réponse de la carte.</p><a name="eztoc234932_3_12" id="eztoc234932_3_12"></a><div name="3.7.Etlesautresmodes?" data-unique="3.7.Etlesautresmodes?"></div><h3>3.7. Et les autres modes ?</h3><p>Nous venons de détailler le Mode 2, mais qu'en est-il des deux autres modes décrits dans la section 2.3&nbsp;?</p><a name="eztoc234932_3_12_18" id="eztoc234932_3_12_18"></a><div name="3.7.1.Mode1" data-unique="3.7.1.Mode1"></div><h4>3.7.1. Mode 1</h4><p>Dans le Mode 1, la calculette demande un challenge, qui est envoyé à la carte dans les deux commandes <span class="customtag code_par">GenerateAC</span> et plus précisément dans le champ <i>Unpredictable Number</i> (UN), codé en BCD. Cette localisation n'est en soi pas surprenante car la documentation d'EMV précise bien que ce tag est prévu pour donner de la variabilité au cryptogramme. Cela explique aussi pourquoi exécuter un Mode 1 sans donnée ou avec un challenge composé uniquement de zéros revient à exécuter un Mode 2 où l'UN est mis à zéro.</p><a name="eztoc234932_3_12_19" id="eztoc234932_3_12_19"></a><div name="3.7.2.Mode2+TDS" data-unique="3.7.2.Mode2+TDS"></div><h4>3.7.2. Mode 2 + TDS</h4><p>Pour le Mode 2 + TDS dans lequel l'utilisateur est amené à introduire un certain nombre de données numériques supplémentaires par l'entremise du clavier, nous ne voyons assez curieusement aucune différence avec le Mode 2. Les données à signer ne sont pas fournies à la carte, tout simplement. Lors de l'écoute d'un échange avec Bus Pirate, nous remarquons que la calculette coupe le dialogue (le signal <i>Clock</i> est arrêté) avec la carte juste après la réponse du 2ème <span class="customtag code_par">GenerateAC</span> et ce, avant même que l'utilisateur n'ait commencé à taper les données au clavier ! Il est intéressant de noter que ceci diffère de la description faite du mode <i>Sign</i> pour les calculettes anglaises <b>[11]</b>, qui est un Mode 1 étendu et pour lequel on retrouve le montant dans le champ <i>Authorised Amount</i> (un autre champ présent dans les CDOL) et le compte du bénéficiaire dans le champ <i>Unpredictable Number</i>. La calculette belge utilise donc les données fournies dans le Mode 2 + TDS uniquement pour faire varier la réponse affichée, tout comme la banque néerlandaise analysée dans <b>[12]</b>. Cela éveille quelques soupçons a priori, car la calculette ne semble pas dotée, jusqu'à preuve du contraire, d'une puissance de calcul impressionnante et, imaginons que nous arrivions à percer son mystère, nous pourrions signer des données à partir d'un jeton d'authentification ! Voire, si l'opération est réversible, partir de la signature de certaines données pour la transformer en signature sur d'autres données&nbsp;! Tout cela ferait la joie des <i>malwares</i> et de leurs utilisateurs. La thèse néerlandaise <b>[12]</b> relève d'ailleurs en de nombreuses occasions les dangers potentiels de ce mode et de la sécurité par obscurité sans toutefois être en mesure de confirmer ou d'infirmer ces hypothèses. Mais l'histoire ne s'arrête pas là&nbsp;;-)</p><a name="eztoc234932_3_13" id="eztoc234932_3_13"></a><div name="3.8.CalculdujetonpourlesMode1etMode2" data-unique="3.8.CalculdujetonpourlesMode1etMode2"></div><h3>3.8. Calcul du jeton pour les Mode 1 et Mode 2</h3><p>La réponse au premier <span class="customtag code_par">GenerateAC</span> décrit dans l'échange commenté contient un peu plus que le cryptogramme de 8 octets (AC, lignes 442-447). Nous y retrouvons également le <i>Cryptogram Information Data</i> (CID, lignes 430-435) qui indique que la réponse est un ARQC, le compteur de transactions sur 2 octets (<i>Application Transaction Counter</i>, ATC, lignes 437-441) qui augmente d'une unité à chaque fois, et enfin, l'<i>Issuer Application Data</i> (IAD, lignes 448-453). Rappelez-vous du filtre qui avait été reçu dans le second record (IPB, lignes 236-241). Il sert à indiquer les bits qui doivent être pris en considération pour générer la réponse qui sera affichée par la calculette. Cette réponse s'obtient en alignant les valeurs des 4 tags et le filtre. La valeur du filtre indique à la façon d'un masque quels bits doivent ensuite être utilisés pour construire la réponse qui sera affichée sur la calculette, après une conversion en décimal <b>[10]</b>.</p><p>Les valeurs envoyées dans la réponse de la carte étaient :</p><p class=" text-LEFT"><b>CID&nbsp;ATC&nbsp;&nbsp;AC&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IAD </b></p><p class=" text-LEFT"><b>80&nbsp;&nbsp;005A&nbsp;513C1201B7DB02A0&nbsp;06015603A400000700030000010002</b></p><p>Issuer Proprietary Bitmap (IPB) :</p><p class=" text-LEFT"><b>00&nbsp;&nbsp;00FF&nbsp;000000000003FFFF</b></p><p>Filtré :</p><p class=" text-LEFT">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>5A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;302A0</b></p><p>Soit en binaire <span class="customtag code_par">01011010 110000001010100000</span>, et enfin, en décimal <span class="customtag code_par">23790240</span>, qui était bien la valeur affichée par la calculette. La longueur maximale du jeton obtenu est donc directement fonction de la longueur effective du filtre, ici de 26 bits, donc de 8 chiffres.</p><p>On peut donc conclure qu'avec le filtre choisi ici, le CID et l'IAD n'interviennent pas dans le calcul de la réponse et seuls les 18 bits LSB de l'AC sont concaténés avec les 8 bits LSB du compteur de transactions. Grâce à ces 8 bits du compteur de transactions, la banque va se synchroniser avec la carte. Les 8 bits les plus significatifs du compteur de transactions doivent être gérés par la banque de manière implicite en tenant compte de l'historique des transactions. Remarquons que le choix du filtre peut différer d'une banque à l'autre, voire même d'une génération de cartes à l'autre au sein d'une même banque. En pratique, il semble que le filtre choisi soit commun à l'ensemble des banques belges analysées, sans doute sous l'égide de l'EPCI <b>[9]</b>.</p><a name="eztoc234932_3_14" id="eztoc234932_3_14"></a><div name="3.9.CalculdujetonpourleMode2+TDS" data-unique="3.9.CalculdujetonpourleMode2+TDS"></div><h3>3.9. Calcul du jeton pour le Mode 2 + TDS</h3><p>Nous avons vu que du point de vue de la carte, le Mode 2 + TDS ne se différencie en rien du Mode 2. La carte ne reçoit pas les données à signer, ni même un hash de celles-ci. C'est donc la calculette qui transforme les données introduites sur le clavier pour créer une nouvelle réponse tout en utilisant le cryptogramme et le compteur de transactions reçus en retour de la commande <span class="customtag code_par">GenerateAC</span>.</p><p>Nous avons tenté de trouver intuitivement une corrélation entre ces éléments, mais sans succès. Pour mieux cerner le problème, nous devons contrôler la réponse de la carte et voir en quoi elle influence la réponse affichée. Il n'est pas nécessaire pour autant de déployer une attaque MitM (<i>Man-in-the-Middle</i>) sur une vraie carte. En effet, il suffit de créer une applet <b>[15]</b> pour JavaCard qui répondra à la calculette ce que nous désirons. Le PIN peut même servir de moyen de contrôle de l'applet, par exemple pour programmer un cryptogramme précis sans devoir recharger une nouvelle applet dans la JavaCard. Nous avons testé notre applet avec des JavaCards utilisant le mode T=0. En faisant varier le cryptogramme lors d'essais successifs, nous nous apercevons qu'une inversion du premier bit de n'importe quel octet du cryptogramme n'influence pas la réponse affichée par la calculette. Ceci indique avec une forte probabilité que le cryptogramme est employé comme une clé DES. En effet, les clés DES sont de 56 bits, qui sont codées traditionnellement sur 64 bits. Et les bits supplémentaires servant en principe de bits de parité sont dans la plupart des cas purement ignorés.</p><p>Nous découvrons sur ces entrefaites la page de Wikipédia dédiée à EMV-CAP <b>[17]</b> (oui, oui, nous aurions pu commencer par là !) qui confirme l'idée de <i>Message Authentication Code</i>. Dans ce scénario, le résultat du Mode 2 sert de clé pour un CBC-MAC à base de DES. Le résultat du CBC-MAC est utilisé en lieu et place du cryptogramme et traité exactement comme dans l'exemple ci-dessus en préservant le compteur de transactions et en appliquant le filtre. Enfin, un document <b>[18]</b> décrivant une cardlet EMV-CAP précise que la réponse de la calculette serait conforme à la norme ISO 9797-1 Algorithm 1 (qui décrit le CBC-MAC) <b>[19]</b> en utilisant le cryptogramme AC comme clé.</p><p>En effet, après quelques tâtonnements, nous parvenons à convertir correctement avec OpenSSL le cryptogramme en un nouveau cryptogramme intégrant les données à signer. Ainsi, supposons que le nombre «&nbsp;1234&nbsp;» ait été saisi au clavier. Nous l'encodons en BCD et y ajoutons un <i>bit-padding</i> classique pour arriver à la taille d'un bloc DES (64 bits) :</p><div class="customtag code">
+  <div class="content"><p>echo "1234800000000000" | xxd -r -p | openssl des-cbc -iv 0 -K $AC -nopad | xxd -p</p></div>
+</div><p>Quelques essais supplémentaires permettent de découvrir d'autres détails. Si plusieurs nombres sont rentrés au clavier (maximum 10), ils seront concaténés avec le nibble 0xF utilisé comme séparateur. Si les données concaténées ne forment pas un nombre entier d'octets, un séparateur supplémentaire est ajouté avant de procéder au bit-padding. Si les données forment un nombre entier de blocs avant padding, alors un padding d'un bloc entier sera ajouté. Bien entendu, si plus d'un bloc est fourni au DES, seul le dernier bloc sera retenu.</p><p>Voici un autre exemple plus complet : introduisons les nombres 1234 et 3101234567 dans la calculette et nous obtenons comme réponse 11200903. En écoutant les échanges avec la carte, nous retrouvons le cryptogramme AC : <span class="customtag code_par">633FCCC4883A1C1F</span> et l'ATC : <span class="customtag code_par">002A</span>. Si nous appliquons les règles énoncées plus haut, la préparation des données en blocs destinés au DES donne <span class="customtag code_par">1234F3101234567F8000000000000000</span>. Ces quelques lignes de bash nous donnent la même réponse que la calculette&nbsp;:</p><div class="customtag code">
+  <div class="content"><p>AC=633FCCC4883A1C1F</p></div>
+</div><div class="customtag code">
+  <div class="content"><p>ATC=002A</p></div>
+</div><div class="customtag code">
+  <div class="content"><p>DATA=1234F3101234567F8000000000000000</p></div>
+</div><div class="customtag code">
+  <div class="content"><p>echo $(( (0x$(echo $DATA | xxd -r -p | openssl des-cbc -iv 0 -K $AC -nopad | xxd -p | tail -c 6) &amp; 0x03ffff) + (0x$ATC &amp; 0xff)*2**18 ))</p></div>
+</div><p>Ceci anéantit les craintes exprimées dans la thèse néerlandaise <b>[12]</b>&nbsp;! Notre calculette a donc bien plus d'un tour dans son sac et est capable d'opérations cryptographiques dignes de ce nom. Il est en outre impossible de retrouver le cryptogramme AC complet qu'avait retourné la carte bancaire à partir des quelques chiffres affichés par la calculette (nous n'en connaissons que 18 des 64 bits avec le filtre mis en œuvre et le cryptogramme est différent à chaque utilisation). Il est donc impossible de transformer un jeton d'authentification (Mode 2) en une signature de transaction (Mode 2 + TDS) et a fortiori de transformer une signature en une autre.</p><p>Il importe de bien différencier à ce stade les opérations cryptographiques réalisées par la carte pour obtenir un cryptogramme et celle effectuée par la calculette. La carte prend en compte la valeur du compteur de transactions ainsi que son secret pour obtenir un cryptogramme au moyen d'une opération triple-DES, voire deux. Dans le Mode 2 + TDS, la calculette va se servir du cryptogramme fourni par la carte ainsi que les données introduites manuellement sur le clavier pour créer un jeton au moyen d'une opération simple-DES.</p><a name="eztoc234932_4" id="eztoc234932_4"></a><div name="4.Lesnouveautés" data-unique="4.Lesnouveautés"></div><h2>4. Les nouveautés</h2><p>Il est déjà techniquement possible d'intégrer les fonctionnalités d'une calculette EMV-CAP directement dans la carte bancaire, tout en conservant les mêmes caractéristiques physiques de taille et de flexibilité (figure 5). Cela implique l'intégration d'un écran, d'un clavier et, oui, d'une batterie ! Nous avons eu l'occasion d'en tester quelques échantillons <b>[20]</b>.</p>
+<div class="img-polaroid image_with_caption" style="width: 470px;"><div class=""><div class="content-view-embed">
+    <div class="class-image">
+        <div class="attribute-image">
+            
+
+    
+                                                
+    
+                                                                                                                                    <a href="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP#imageLightbox25825" data-toggle="lightbox">        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Carte-CAP-scanmerge1_large.jpg" width="470" height="300" style="border: 0px solid ;" alt="Carte-CAP-scanmerge" title="Carte-CAP-scanmerge">
+        </a>     
+    
+    
+    
+            </div>
+        </div>
+	<div id="imageLightbox25825" class="lightbox hide fade" tabindex="-1" role="dialog" aria-hidden="true">
+	    <div class="lightbox-content">
+	        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/Carte-CAP-scanmerge1.jpg" alt="">
+	    </div>
+	</div>
+</div></div><div class="caption text-center muted"><div class="customtag legende">
+  <div class="content"><p>Fig. 5 : Carte de démonstration intégrant une calculette EMV-CAP</p></div>
+</div></div></div><p>Il n'est pas facile de se servir de ce clavier et les fautes de saisie sont plus fréquentes. Cette solution reste toutefois très séduisante comme dépannage lorsqu'on doit réaliser une opération en ligne sans avoir sa calculette sous la main.</p><p>Il existe aussi des calculettes EMV-CAP qui lisent optiquement le challenge sur la page de la banque <b>[21]</b> s'il est présenté sous une forme graphique prévue à cet effet. Mais cela risque de poser des problèmes sur des équipements mobiles en raison de la taille et de la résolution de leur écran.</p><p>Mentionnons également l'existence d'une autre spécification de Mastercard plus récente&nbsp;: PLA (<i>Perso Less Authentication</i>) et sa déclinaison commerciale AA4C (<i>Advanced Authentication for Chip</i>) qui permet de rendre le protocole EMV-CAP possible avec des cartes EMV déjà déployées et dépourvues d'application EMV-CAP (et donc de filtre IPB).</p><a name="eztoc234932_5" id="eztoc234932_5"></a><div name="5.Émulationlogicielled&#39;EMV-CAP" data-unique="5.Émulationlogicielled&#39;EMV-CAP"></div><h2>5. Émulation logicielle d'EMV-CAP</h2><p>Avec la compréhension du protocole EMV-CAP tel que mis en place par les banques belges, l'émulation de la calculette par logiciel est donc possible et a été réalisée. Cette application est disponible <b>[15]</b> à des fins didactiques. L'emploi de ce logiciel pour des opérations financières réelles présente un certain risque. En effet, l'intérêt de la calculette est d'isoler la carte bancaire des vilains malwares. Le mettre en œuvre sur un lecteur non sécurisé, c'est risquer qu'un keylogger intercepte votre PIN, qu'un malware accède aux informations de votre carte, voire qu'il intercepte votre transaction pour la modifier ou qu'il procède lui-même à ses propres transactions. Le papier de Cambridge <b>[11]</b> mentionnait justement dans son analyse des risques le fait qu'il est tentant pour les banques de fournir une solution logicielle plutôt que matérielle de la calculette, et le jour où votre site bancaire vous demandera de vous identifier en insérant votre carte bancaire dans un ordinateur et en tapant votre PIN au clavier, il sera sérieusement temps de vous inquiéter ! Pour toutes ces raisons, notre script est disponible uniquement sous une licence CC BY-ND <b>[22]</b> afin d'éviter que n'apparaissent des versions grand public qui passeraient sous silence nos mises en garde et viseraient à en généraliser l'usage.</p><p>Nous sommes en outre assez sceptiques lorsque certains annoncent <b>[23]</b> une émulation logicielle de la calculette et de la carte sur un iPhone, dont la clé secrète serait apparemment sécurisée uniquement par des méthodes logicielles.</p><a name="eztoc234932_6" id="eztoc234932_6"></a><div name="6.Quiddesautresvulnérabilités?" data-unique="6.Quiddesautresvulnérabilités?"></div><h2>6. Quid des autres vulnérabilités ?</h2><p>Un certain nombre de problèmes potentiels de EMV et/ou EMV-CAP ont été soulevés ou rappelés notamment dans <b>[11] </b>et <b>[12]</b>. Nous venons de démontrer qu'il n'y a pas lieu de s'inquiéter de la façon dont le Mode 2 + TDS est implémenté et de balayer les craintes émises dans <b>[12]</b>. Nous allons passer rapidement en revue les principales autres sources d'inquiétude.</p><a name="eztoc234932_6_15" id="eztoc234932_6_15"></a><div name="6.1.SepasserduPIN" data-unique="6.1.SepasserduPIN"></div><h3>6.1. Se passer du PIN</h3><p>Il y a un an, la publication d'une faille pouvant être exploitée dans certaines transactions EMV online <b>[24]</b> a créé un certain émoi. Cette faille rend possible une transaction en ne connaissant pas le PIN de la carte au moyen d'un appareillage contrôlant l'échange entre une carte EMV et un terminal. La faille repose sur le fait que la carte et la banque réalisent une transaction légitime sans PIN (nous avons vu au début de cet article que le PIN n'est qu'une méthode possible parmi d'autres) tandis que le terminal, qui, lui, veut un PIN, se fait abuser par une fausse réponse injectée : <i>PIN Verify OK</i>. Dans notre cas, ce n'est plus tant le terminal qu'il faudrait abuser, mais bien la banque et celle-ci refuserait bien évidemment une transaction EMV-CAP sans PIN car s'il est parfois optionnel dans EMV, il est bien obligatoire dans EMV-CAP ! La banque ne reçoit qu'un condensé de l'ATC et du cryptogramme. L'assurance qu'un PIN a bien été validé est fournie par la façon de générer le cryptogramme. En effet, outre les données fournies par le terminal dans sa commande <span class="customtag code_par">GenerateAC</span>, la carte utilise pour générer le cryptogramme des données internes telles que l'AIP, l'ATC et surtout le CVR (<i>Card Verification </i><i>Results</i>). Cette dernière donnée contient un drapeau explicite indiquant qu'une vérification de PIN offline a été menée à bien <b>[10]</b>. Le CVR se retrouve également dans l'IAD fourni dans la réponse de la carte aux côtés du cryptogramme. Pour les Saint-Thomas qui nous lisent, mettre en commentaire la vérification de PIN dans notre script suffira pour montrer que la banque refusera alors les jetons fournis, C.Q.F.D. Quant aux cartes néerlandaises analysées <b>[12]</b>, elles réagiraient en refusant de retourner un ARQC sans vérification préalable du PIN et retourneraient alors un AAC.</p><a name="eztoc234932_6_16" id="eztoc234932_6_16"></a><div name="6.2.Confusiondemodes" data-unique="6.2.Confusiondemodes"></div><h3>6.2. Confusion de modes</h3><p>Un autre problème soulevé dans <b>[11]</b> est que le mode <i>Sign</i> employé en Angleterre peut amener à abuser les utilisateurs. En effet, en les invitant à effectuer une transaction de zéro (livres ou euros...), un attaquant a la possibilité de récupérer un jeton valide pour l'authentification puisque l'<i>Unpredictable Number</i> est mis à zéro. Heureusement que, comme nous l'avons expliqué, les calculettes belges ne proposent pas ce Mode 1 étendu pour signer des données, mais un Mode 2 + TDS, et la confusion n'est plus permise car le jeton sera différent.</p><a name="eztoc234932_6_17" id="eztoc234932_6_17"></a><div name="6.3.FaiblessesduMode2" data-unique="6.3.FaiblessesduMode2"></div><h3>6.3. Faiblesses du Mode 2</h3><p>Lorsque le serveur de la banque n'envoie pas de challenge pour authentifier l'utilisateur (Mode 2), les jetons peuvent être extraits à l'avance et stockés. Ceci simplifierait certaines attaques de <i>phishing</i> car l'attaquant pourrait monter son attaque en deux phases : collecte de jetons par phishing puis utilisation plus tard plutôt que devoir agir en temps réel. Certaines banques utilisant ce mode réclament en outre un mot de passe, mais si un attaquant virtuel (malware) peut collecter le jeton, il n'aura pas grand mal à collecter le mot de passe également. Il nous semble donc plus adéquat de mettre en œuvre le Mode 1 pour l'authentification, au prix d'une manipulation supplémentaire de l'utilisateur.</p><a name="eztoc234932_6_18" id="eztoc234932_6_18"></a><div name="6.4.FaiblessesduMode2+TDS" data-unique="6.4.FaiblessesduMode2+TDS"></div><h3>6.4. Faiblesses du Mode 2 + TDS</h3><p>Quant au Mode 2 + TDS, commun à toutes les banques belges observées, il souffre du même problème : des cryptogrammes peuvent être collectés à l'avance et employés plus tard pour signer n'importe quelle donnée, par exemple une transaction <i>3-D Secure</i>. Ce sont en quelque sorte des chèques en blanc version numérique. L'auteur de <b>[12]</b>, ne sachant pas quelle opération de mixage était effectuée en Mode 2 + TDS, pensait qu'il suffisait de collecter des jetons d'authentification pour les réutiliser dans ce mode. Mais nous avons découvert que le mixage se fait de manière robuste en utilisant le cryptogramme complet et non le jeton affiché. Collecter des cryptogrammes est certainement moins facile que de collecter les jetons via malware ou phishing. Mais cela reste possible, par exemple, sur un terminal marchand ou un distributeur qui aurait été trafiqué avec un <i>shim</i>, une petite pièce plate qui s'introduit entre les contacts de la carte et ceux du lecteur. Les anglophones parlent dans ce cas de <i>shimming attack</i> par opposition à la <i>skimming attack</i> que l'on connaît sur la piste magnétique. Une solution serait peut-être d'avoir un mode où la calculette effectuerait un hachage des données en amont et fournirait une partie du condensat sous la forme d'un <i>Unpredictable Number</i> à la carte.</p><a name="eztoc234932_6_19" id="eztoc234932_6_19"></a><div name="6.5.Malwaresetsémantique" data-unique="6.5.Malwaresetsémantique"></div><h3>6.5. Malwares et sémantique</h3><p>À propos des malwares, un risque subsiste face à ceux qui interceptent ce que la banque vous envoie comme challenge pour signer un ordre de transfert et qui le substituent pour signer un autre ordre à votre insu. La solution se résume à&nbsp;: moins de sécurité pour plus de sécurité. En effet, dans leur première mouture, les challenges sont créés par une quelconque fonction de hachage cryptographique sur les données du transfert. Même si cela semble a priori une bonne solution, pour l'utilisateur, ce n'est qu'un grand nombre à l'allure aléatoire et il ne remarquera jamais une substitution par un autre challenge. C'est pour cela que, petit à petit, les banques abandonnent ce type de challenge pour privilégier des challenges sémantiques constitués, par exemple, du montant et d'une partie du numéro de compte du bénéficiaire. Le challenge est présenté de façon à ce que l'utilisateur comprenne comment il a été créé et ce qu'il représente. Ainsi, l'utilisateur a un rôle semi-actif dans la détection d'une éventuelle substitution frauduleuse (à condition qu'il se donne la peine de constater la corrélation mise en évidence). Une autre technique rencontrée consiste même à expliquer à l'utilisateur qu'il doit entrer une partie du compte du destinataire sans afficher ladite partie. Cela force l'utilisateur à être encore plus actif car au lieu de comparer de l'information, il doit fournir l'information par lui-même. Ce type de malware reste malgré tout un outil très dangereux en <i>social engineering</i> et il faut rester vigilant lorsque la page de la banque est différente et, par exemple, propose une étape de vérification supplémentaire «&nbsp;pour plus de sécurité contre ces fameux malwares&nbsp;», une attaque à l'instar de ces malwares déguisés en antivirus.</p><a name="eztoc234932_6_20" id="eztoc234932_6_20"></a><div name="6.6.Aideauvolavecviolence" data-unique="6.6.Aideauvolavecviolence"></div><h3>6.6. Aide au vol avec violence</h3><p>Enfin, l'article de Cambridge <b>[11]</b> mentionne un risque d'un genre différent lié à la profusion de ce type de calculettes, car elles permettent facilement à un agresseur qui voudrait vous forcer à révéler votre code PIN de le vérifier instantanément à l'abri des regards. Bien sûr, créer un lecteur qui implémente un <i>PIN Verify</i> a toujours été possible, mais ici, l'équipement requis est mis à disposition du premier venu sous une forme anodine.</p><a name="eztoc234932_7" id="eztoc234932_7"></a><div name="Conclusion" data-unique="Conclusion"></div><h2>Conclusion</h2><p>Nous vous avons invité à découvrir le fonctionnement des calculettes EMV-CAP distribuées par les banques belges. La calculette emploie une application résidente sur une carte bancaire pour faire une opération semblable à une transaction EMV en ligne qui aurait été avortée. Cela permet d'extraire une signature de la carte qui sert à la banque à authentifier son porteur ou à valider un ordre de transfert. La calculette ne contient pas de secret ou de personnalisation, ce qui en simplifie la gestion et le processus de distribution des calculettes.</p><p>Nous avons vu qu'il y a plus d'une façon d'implémenter EMV-CAP. D'ailleurs, les calculettes ne sont en général pas interopérables, sauf en Belgique où un organisme <b>[9]</b> est chargé de la certification nationale de ces appareils. Nous avons soulevé un coin du voile ensemble et nous avons expliqué la sécurité mise en place derrière l'obscurité de façade. Ceci nous a permis de modérer un certain nombre de craintes exprimées dans <b>[11]</b> et <b>[12]</b>, notamment en ce qui concerne le Mode 2 + TDS et l'évitement du PIN. La sécurité des transactions bancaires sur Internet est certainement améliorée par rapport aux moyens d'authentification plus traditionnels et vulnérables aux keyloggers ou malwares. Néanmoins, au vu des diverses observations que nous avons énoncées, nous constatons qu'il y a des façons meilleures que d'autres d'implémenter EMV-CAP en pratique.</p><p>Aujourd'hui, EMV-CAP est utilisé par des banques, notamment en Belgique, en Angleterre, aux Pays-Bas, en Suisse, en Espagne, au Portugal, en Suède, en Slovénie, en Grèce, en Turquie, en Russie, au Mexique, au Viêt Nam, et cette liste n'est probablement pas exhaustive. En analysant quelques cartes bancaires françaises, nous avons vu que certaines d'entre elles contiennent l'application équivalente développée par Visa (DPA). Il est donc possible que certaines banques françaises proposeront une calculette à l'avenir. Vous pouvez utiliser le script <b>[15]</b> pour vérifier quelles sont les applications présentes sur votre propre carte, voire même lui faire générer un jeton !</p><p>Mais EMV-CAP dépasse le cadre bancaire. En témoigne l'exemple des autorités portugaises qui l'ont intégré dans leur nouvelle carte d'identité électronique <b>[25]</b> afin d'offrir au citoyen un moyen d'authentification via Internet ou même lors des contacts téléphoniques avec l'administration. Attendons-nous à voir le protocole EMV-CAP de plus en plus répandu dans un avenir proche et, qui sait, même en France ;-).</p><p>Enfin, il serait intéressant de voir s'il est possible de tirer profit de la profusion de ces calculettes interopérables pour développer une solution open source d'authentification, par exemple à base d'une JavaCard. Il n'est pas nécessaire de vouloir suivre une architecture EMV-CAP à la lettre, une utilisation des champs UN d'une part et IPB/AC d'autre part nous semble suffisante pour implémenter un protocole de challenge/réponse digital. Un brevet américain publié très récemment <b>[26]</b> explore d'ailleurs cette piste.</p><a name="eztoc234932_8" id="eztoc234932_8"></a><div name="Remerciements" data-unique="Remerciements"></div><h2>Remerciements</h2><p>Nous remercions Gildas Avoine pour ses remarques toujours pertinentes, Michaël Peeters pour son aide dans l'écriture de l'applet pour JavaCard, Ludovic Rousseau pour son support dans l'utilisation de pyscard et les relecteurs pour leur aide lors de la rédaction de cet article.</p><a name="eztoc234932_9" id="eztoc234932_9"></a><div name="Références" data-unique="Références"></div><h2>Références</h2><p>[1] http://www.emvco.com</p><p>[2] http://www.theukcardsassociation.org.uk/media_centre/press_releases_new/-/page/922/</p><p>[3] http://www.cardwerk.com/smartcards/smartcard_standard_ISO7816-3.aspx</p><p>[4] http://www.cardwerk.com/smartcards/smartcard_standard_ISO7816-4.aspx</p><p>[5] Eluard (M.), Lelievre (S), «&nbsp;YESCARD entre mythe et réalité ou un aperçu du système bancaire français&nbsp;» (section 3.3), <i>MISC</i> hors-série n°2, pp 22-24</p><p>[6] http://www.visaeurope.com/aboutvisa/products/dynamicpasscode.jsp</p><p>[7] http://www.vasco.com/products/digipass/digipass_readers/digipass_800_range/digipass_810.aspx</p><p>[8] http://www.dictao.net/solutions/banque-assurance/paiement-en-ligne</p><p>[9] http://www.epci.be/unconnected_readers.htm</p><p>[10] WO03073389, EP1646976, US20110022521</p><p>[11] http://www.cl.cam.ac.uk/~sjm217/papers/fc09optimised.pdf</p><p>[12] http://www.ru.nl/publish/pages/578936/emv-cards_and_internet_banking_-_michael_schouwenaar.pdf</p><p>[13] http://dangerousprototypes.com/bus-pirate-manual/bus-pirate-feature-overview/</p><p>[14] Bodor (D.), «&nbsp;Parlez 1-Wire, I2C, SPI, MIDI et bien plus avec un seul outil : Bus Pirate v3&nbsp;», <i>Open Silicium</i> n°2, pp 18-27</p><p>[15] http://sites.uclouvain.be/EMV-CAP/</p><p>[16] http://www.itu.int/ITU-T/studygroups/com17/languages/X.690-0207.pdf</p><p>[17] https://secure.wikimedia.org/wikipedia/en/wiki/Chip_Authentication_Program</p><p>[18] http://www.rb.ru/upload/users/files/3374/check-in-phone-technologie_security-english-_2010-08-12_20.05.11.pdf</p><p>[19] http://www.iso.org/iso/catalogue_detail.htm?csnumber=30656</p><p>[20] http://www.nidsecurity.com/microsite/mastercard/products/</p><p>[21] http://www.gemalto.com/products/ezio_optical_reader/</p><p>[22] http://creativecommons.org/licenses/by-nd/2.0/be/deed.fr</p><p>[23] http://www.arcot.com/resources/docs/ArcotOTP_for_CAP_DPA_Fact_Sheet.pdf</p><p>[24] http://www.cl.cam.ac.uk/~sjm217/papers/oakland10chipbroken.pdf</p><p>[25] http://www.cartaodecidadao.pt/images/stories/especificacoes%20-%20leitores%20base_v1.0.pdf (page 5)</p><p>[26] US7882553</p>                        </div>
+                                                
+                            <div class="bloc_additionnaltag">
+    Tags : 
+                    
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22bash%22&amp;activeFacets[attr_tags_lk:Tags]=bash"><span>bash</span></a>,                      
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22chiffrement%22&amp;activeFacets[attr_tags_lk:Tags]=chiffrement"><span>chiffrement</span></a>,                      
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22diff%22&amp;activeFacets[attr_tags_lk:Tags]=diff"><span>diff</span></a>,                      
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22https%22&amp;activeFacets[attr_tags_lk:Tags]=https"><span>HTTPS</span></a>,                      
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22openssl%22&amp;activeFacets[attr_tags_lk:Tags]=openssl"><span>OpenSSL</span></a>,                      
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22ssl%22&amp;activeFacets[attr_tags_lk:Tags]=ssl"><span>SSL</span></a>,                      
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22statistiques%22&amp;activeFacets[attr_tags_lk:Tags]=statistiques"><span>statistiques</span></a>,                      
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_tags_lk:%22vuln%C3%A9rabilit%C3%A9s%22&amp;activeFacets[attr_tags_lk:Tags]=vuln%C3%A9rabilit%C3%A9s"><span>vulnérabilités</span></a>                </div>                         
+                    </div>
+                    
+                    
+					
+<div class="bloc addthis_toolbox addthis_default_style">
+	<a class="addthis_button_google_plusone at300b" g:plusone:size="medium"><div class="google_plusone_iframe_widget" style="width: 90px; height: 25px;"><span><div id="___plusone_0" style="text-indent: 0px; margin: 0px; padding: 0px; background: transparent; border-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; display: inline-block; width: 90px; height: 20px;"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 90px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1489499884015" name="I0_1489499884015" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/fastbutton.html" data-gapiattached="true" title="+1"></iframe></div></span></div></a>
+	<a class="addthis_button_facebook_like at300b" fb:like:layout="button_count"><div class="fb-like fb_iframe_widget" data-layout="button_count" data-show_faces="false" data-share="false" data-action="like" data-width="90" data-height="25" data-font="arial" data-href="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP" data-send="false" style="height: 25px;" fb-xfbml-state="rendered" fb-iframe-plugin-query="action=like&amp;app_id=172525162793917&amp;container_width=90&amp;font=arial&amp;height=25&amp;href=http%3A%2F%2Fconnect.ed-diamond.com%2FMISC%2FMISC-056%2FBanques-en-ligne-a-la-decouverte-d-EMV-CAP&amp;layout=button_count&amp;locale=fr_FR&amp;sdk=joey&amp;send=false&amp;share=false&amp;show_faces=false&amp;width=90"><span style="vertical-align: bottom; width: 90px; height: 20px;"><iframe name="f883824b1c4e04" width="90px" height="25px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/like.html" style="border: none; visibility: visible; width: 90px; height: 20px;" class=""></iframe></span></div></a>
+	<a class="addthis_button_tweet at300b"><div class="tweet_iframe_widget" style="width: 62px; height: 25px;"><span><iframe id="twitter-widget-0" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/tweet_button.a0ec3119d8db2bc5422f2144c89ad7a9.fr.html" style="position: static; visibility: visible; width: 70px; height: 20px;" data-url="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP#.WMf26GZxLqc.twitter"></iframe></span></div></a>
+	<a class="addthis_button_compact" href="http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP#">
+		<img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/addthis_button.png" border="0" alt="Partager">
+	</a>
+<div class="atclear"></div></div>
+<script type="text/javascript" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/addthis_widget.js"></script>
+
+<!-- AddThis Button END -->
+<!-- AddThis Button END -->
+                    
+                </div>
+                
+                <!-- FIN col gauche -->
+                
+                <!-- DEB col droite -->
+                <div class="span4 sidebar">
+                                        <div class="bloc summary">
+                        <h3>Sommaire</h3>
+                        <div class="sommaire">
+                            <div id="toc"><ul id="Header0" class="header"><li class="item tocify-focus" data-unique="1.LestandardEMV"><a>1. Le standard EMV</a></li><ul class="sub-header" data-tag="3"><li class="item" data-unique="1.1.Présentation"><a>1.1. Présentation</a></li><li class="item" data-unique="1.2.TransactionEMV"><a>1.2. Transaction EMV</a></li><ul class="sub-header" data-tag="4"><li class="item" data-unique="1.2.1.Aperçu"><a>1.2.1. Aperçu</a></li><li class="item" data-unique="1.2.2.Sélectiondel&#39;application"><a>1.2.2. Sélection de l'application</a></li><li class="item" data-unique="1.2.3.Initialisationdelatransaction"><a>1.2.3. Initialisation de la transaction</a></li><li class="item" data-unique="1.2.4.Lectureetauthentificationdesdonnées"><a>1.2.4. Lecture et authentification des données</a></li><li class="item" data-unique="1.2.5.Authentificationduporteur"><a>1.2.5. Authentification du porteur</a></li><li class="item" data-unique="1.2.6.Transactionproprementdite"><a>1.2.6. Transaction proprement dite</a></li></ul></ul></ul><ul id="Header1" class="header"><li class="item" data-unique="2.EtcetEMV-CAP?"><a>2. Et cet EMV-CAP ?</a></li><ul class="sub-header" data-tag="3"><li class="item" data-unique="2.1.Contexte"><a>2.1. Contexte</a></li><li class="item" data-unique="2.2.Spécifications"><a>2.2. Spécifications</a></li><li class="item" data-unique="2.3.Utilisation"><a>2.3. Utilisation</a></li><ul class="sub-header" data-tag="4"><li class="item" data-unique="2.3.1.Modesopératoires"><a>2.3.1. Modes opératoires</a></li><li class="item" data-unique="2.3.2.Mode1"><a>2.3.2. Mode 1</a></li><li class="item" data-unique="2.3.3.Mode2"><a>2.3.3. Mode 2</a></li><li class="item" data-unique="2.3.4.Mode2+TDS(TransactionDataSigning)"><a>2.3.4. Mode 2 + TDS (Transaction Data Signing)</a></li><li class="item" data-unique="2.3.5.Interopérabilité"><a>2.3.5. Interopérabilité</a></li></ul></ul></ul><ul id="Header2" class="header"><li class="item" data-unique="3.Analysed&#39;EMV-CAP"><a>3. Analyse d'EMV-CAP</a></li><ul class="sub-header" data-tag="3"><li class="item" data-unique="3.1.Premièretentative"><a>3.1. Première tentative</a></li><li class="item" data-unique="3.2.BusPirate"><a>3.2. Bus Pirate</a></li><li class="item" data-unique="3.3.Mesuredelafréquenced&#39;horloge"><a>3.3. Mesure de la fréquence d'horloge</a></li><li class="item" data-unique="3.4.Configurationdel&#39;UART"><a>3.4. Configuration de l'UART</a></li><li class="item" data-unique="3.5.Écoutedesdonnées"><a>3.5. Écoute des données</a></li><li class="item" data-unique="3.6.Exempled&#39;unetransactionEMV-CAPenMode2"><a>3.6. Exemple d'une transaction EMV-CAP en Mode 2</a></li><ul class="sub-header" data-tag="4"><li class="item" data-unique="3.6.1.Trace"><a>3.6.1. Trace</a></li><li class="item" data-unique="3.6.2.Sélectiondel&#39;application"><a>3.6.2. Sélection de l'application</a></li><li class="item" data-unique="3.6.3.Initialisationdelatransaction"><a>3.6.3. Initialisation de la transaction</a></li><li class="item" data-unique="3.6.4.Lecturedesdonnées"><a>3.6.4. Lecture des données</a></li><li class="item" data-unique="3.6.5.Authentificationduporteur"><a>3.6.5. Authentification du porteur</a></li><li class="item" data-unique="3.6.6.Transactionproprementdite"><a>3.6.6. Transaction proprement dite</a></li></ul><li class="item" data-unique="3.7.Etlesautresmodes?"><a>3.7. Et les autres modes ?</a></li><ul class="sub-header" data-tag="4"><li class="item" data-unique="3.7.1.Mode1"><a>3.7.1. Mode 1</a></li><li class="item" data-unique="3.7.2.Mode2+TDS"><a>3.7.2. Mode 2 + TDS</a></li></ul><li class="item" data-unique="3.8.CalculdujetonpourlesMode1etMode2"><a>3.8. Calcul du jeton pour les Mode 1 et Mode 2</a></li><li class="item" data-unique="3.9.CalculdujetonpourleMode2+TDS"><a>3.9. Calcul du jeton pour le Mode 2 + TDS</a></li></ul></ul><ul id="Header3" class="header"><li class="item" data-unique="4.Lesnouveautés"><a>4. Les nouveautés</a></li></ul><ul id="Header4" class="header"><li class="item" data-unique="5.Émulationlogicielled&#39;EMV-CAP"><a>5. Émulation logicielle d'EMV-CAP</a></li></ul><ul id="Header5" class="header"><li class="item" data-unique="6.Quiddesautresvulnérabilités?"><a>6. Quid des autres vulnérabilités ?</a></li><ul class="sub-header" data-tag="3"><li class="item" data-unique="6.1.SepasserduPIN"><a>6.1. Se passer du PIN</a></li><li class="item" data-unique="6.2.Confusiondemodes"><a>6.2. Confusion de modes</a></li><li class="item" data-unique="6.3.FaiblessesduMode2"><a>6.3. Faiblesses du Mode 2</a></li><li class="item" data-unique="6.4.FaiblessesduMode2+TDS"><a>6.4. Faiblesses du Mode 2 + TDS</a></li><li class="item" data-unique="6.5.Malwaresetsémantique"><a>6.5. Malwares et sémantique</a></li><li class="item" data-unique="6.6.Aideauvolavecviolence"><a>6.6. Aide au vol avec violence</a></li></ul></ul><ul id="Header6" class="header"><li class="item" data-unique="Conclusion"><a>Conclusion</a></li></ul><ul id="Header7" class="header"><li class="item" data-unique="Remerciements"><a>Remerciements</a></li></ul><ul id="Header8" class="header"><li class="item" data-unique="Références"><a>Références</a></li></ul></div>
+                        </div>
+                    </div>
+                                        <br>
+                    
+                                                    			
+	<aside class="row">
+    <div class="span4">
+        <div class="bloc">
+            <h3>Par le même auteur</h3>
+            <ul class="unstyled">
+	        	            	        	             
+	                	                	                <li>
+	                    <article class="content-view-line">
+    <h4><a href="http://connect.ed-diamond.com/MISC/MISCHS-006/Sequestre-de-cles-mise-en-pratique-du-Shamir-s-Secret-Sharing-Scheme">Séquestre de clés&nbsp;: mise en pratique du «&nbsp;Shamir's Secret-Sharing Scheme&nbsp;»</a></h4>
+        <div class="muted infos_line">
+    <div>
+	    MISC HS
+	    	    <span class="numero">n°
+006</span>
+	    	     | <span class="date">novembre 2012</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/9799-teuwen_philippe">Philippe Teuwen</a>
+        </span>	    
+	    	     
+
+<ul id="ezsr_rating_236098" class="ezsr-star-rating">
+    <li id="ezsr_rating_percent_236098" class="ezsr-current-rating" style="width:0%;">Actuellement <span>0</span> sur 5 étoiles</li>
+        <li>
+                <a href="JavaScript:void(0);">1</a>
+            </li>
+        <li>
+                <a href="JavaScript:void(0);">2</a>
+            </li>
+        <li>
+                <a href="JavaScript:void(0);">3</a>
+            </li>
+        <li>
+                <a href="JavaScript:void(0);">4</a>
+            </li>
+        <li>
+                <a href="JavaScript:void(0);">5</a>
+            </li>
+    </ul>
+<div class="clearfix"></div>
+	    	</div>
+        <div>
+        
+		    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22programmation%22&amp;activeFacets[attr_category_lk:Domaines]=programmation"> <span class="label"> Programmation</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22s%C3%A9curit%C3%A9%22&amp;activeFacets[attr_category_lk:Domaines]=s%C3%A9curit%C3%A9"> <span class="label"> Sécurité</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22web%22&amp;activeFacets[attr_category_lk:Domaines]=web"> <span class="label"> Web</span></a>            </div>
+       
+</div></article>
+	                </li>
+	                	            	        	            	        	            	        	            	        	            	                    </ul>
+        </div>
+    </div>
+</aside>
+                        
+                </div>
+                
+                <!-- FIN col droite -->
+            </div>
+        </div>
+    </div>
+    
+    
+			
+		<aside class="row related_articles">
+	    <div class="span12">
+	        <h2>D'autres articles peuvent vous intéresser</h2>
+	        <ul class="thumbnails">
+	        	            	                	                	            <li class="span4">
+	                
+<article class="thumbnail article content-view-embed content-view-embed-article" style="height: 278px;">    
+    <div class="caption">
+        <h4><a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Gerer-vos-secrets-avec-Vault">Gérer vos secrets avec Vault</a></h4>
+        <div class="muted infos_line">
+    <div>
+	    Linux Pratique
+	    	    <span class="numero">n°
+100</span>
+	    	     | <span class="date">mars 2017</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/72090-mortreux_denis">Denis Mortreux</a>
+        </span>	    
+	    	    	    	</div>
+        <div>
+        
+		    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22audio-vid%C3%A9o%22&amp;activeFacets[attr_category_lk:Domaines]=audio-vid%C3%A9o"> <span class="label"> Audio-vidéo</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22people-interview%22&amp;activeFacets[attr_category_lk:Domaines]=people-interview"> <span class="label"> People-Interview</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22s%C3%A9curit%C3%A9%22&amp;activeFacets[attr_category_lk:Domaines]=s%C3%A9curit%C3%A9"> <span class="label"> Sécurité</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22web%22&amp;activeFacets[attr_category_lk:Domaines]=web"> <span class="label"> Web</span></a>            </div>
+       
+</div>                <p>
+            De plus en plus menacée, la sécurité informatique est devenue un enjeu majeur pour les entreprises désireuses de consolider leurs anciennes...
+        </p>
+         
+    </div>
+    <div class="article_actions text-right prix_view_">    <a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Gerer-vos-secrets-avec-Vault" class="btn btn-success tooltip_button" data-placement="bottom" data-original-title="Lecture complète réservée aux abonnés"><i class="icon-chevron-right icon-white"></i> Lire l'extrait</a>    <div class="clearfix"></div>
+</div></article>	            </li>
+	                	            	        	            	                	                	            <li class="span4">
+	                
+<article class="thumbnail article content-view-embed content-view-embed-article" style="height: 278px;">    
+    <div class="caption">
+        <h4><a href="http://connect.ed-diamond.com/GNU-Linux-Magazine/GLMFHS-089/Gerez-vos-processus-et-sous-processus">Gérez vos processus et sous-processus</a></h4>
+        <div class="muted infos_line">
+    <div>
+	    GNU/Linux Magazine HS
+	    	    <span class="numero">n°
+089</span>
+	    	     | <span class="date">mars 2017</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/9450-pelisse_romain">Romain pelisse</a>
+        </span>	    
+	    	    	    	</div>
+        <div>
+        
+		    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22environnement%20de%20bureau%22&amp;activeFacets[attr_category_lk:Domaines]=environnement%20de%20bureau"> <span class="label"> Environnement de bureau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22utilitaires%22&amp;activeFacets[attr_category_lk:Domaines]=utilitaires"> <span class="label"> Utilitaires</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22web%22&amp;activeFacets[attr_category_lk:Domaines]=web"> <span class="label"> Web</span></a>            </div>
+       
+</div>                <p>
+            Avant-dernier article de notre étude de la programmation «&nbsp;Shell&nbsp;» - nous avons déjà couvert beaucoup de terrain, mais il nous reste encore...
+        </p>
+         
+    </div>
+    <div class="article_actions text-right prix_view_">    <a href="http://connect.ed-diamond.com/GNU-Linux-Magazine/GLMFHS-089/Gerez-vos-processus-et-sous-processus" class="btn btn-success tooltip_button" data-placement="bottom" data-original-title="Lecture complète réservée aux abonnés"><i class="icon-chevron-right icon-white"></i> Lire l'extrait</a>    <div class="clearfix"></div>
+</div></article>	            </li>
+	                	            	        	            	                	                	            <li class="span4">
+	                
+<article class="thumbnail article content-view-embed content-view-embed-article" style="height: 278px;">    
+    <div class="caption">
+        <h4><a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Realiser-des-captures-d-ecran-en-ligne-de-commandes-avec-Scrot">Réaliser des captures d’écran en ligne de commandes avec Scrot</a></h4>
+        <div class="muted infos_line">
+    <div>
+	    Linux Pratique
+	    	    <span class="numero">n°
+100</span>
+	    	     | <span class="date">mars 2017</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/53153-magnin_vincent">Vincent Magnin</a>
+        </span>	    
+	    	    	    	</div>
+        <div>
+        
+		    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22utilitaires%22&amp;activeFacets[attr_category_lk:Domaines]=utilitaires"> <span class="label"> Utilitaires</span></a>            </div>
+       
+</div>                <p>
+            Mais pourquoi donc vouloir faire de la capture d’écran en ligne de commandes&nbsp;? Il s’agira bien sûr d’automatiser une tâche nécessitant...
+        </p>
+         
+    </div>
+    <div class="article_actions text-right prix_view_">    <a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Realiser-des-captures-d-ecran-en-ligne-de-commandes-avec-Scrot" class="btn btn-success tooltip_button" data-placement="bottom" data-original-title="Lecture complète réservée aux abonnés"><i class="icon-chevron-right icon-white"></i> Lire l'extrait</a>    <div class="clearfix"></div>
+</div></article>	            </li>
+	                	            	        	            	                	                	            <li class="span4">
+	                
+<article class="thumbnail article content-view-embed content-view-embed-article" style="height: 278px;">    
+    <div class="caption">
+        <h4><a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Parametrez-votre-clavier-multimedia-avec-XBindKeys">Paramétrez votre clavier multimédia avec XBindKeys</a></h4>
+        <div class="muted infos_line">
+    <div>
+	    Linux Pratique
+	    	    <span class="numero">n°
+100</span>
+	    	     | <span class="date">mars 2017</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/9859-mourey_stephane">Stéphane Mourey</a>
+        </span>	    
+	    	    	    	</div>
+        <div>
+        
+		    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22environnement%20de%20bureau%22&amp;activeFacets[attr_category_lk:Domaines]=environnement%20de%20bureau"> <span class="label"> Environnement de bureau</span></a>            </div>
+       
+</div>                <p>
+            Vous disposez d'un clavier multimédia dont les touches supplémentaires ne sont pas reconnues par votre OS préféré. Devrez-vous vous contenter...
+        </p>
+         
+    </div>
+    <div class="article_actions text-right prix_view_">    <a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Parametrez-votre-clavier-multimedia-avec-XBindKeys" class="btn btn-success tooltip_button" data-placement="bottom" data-original-title="Lecture complète réservée aux abonnés"><i class="icon-chevron-right icon-white"></i> Lire l'extrait</a>    <div class="clearfix"></div>
+</div></article>	            </li>
+	                	            	        	            	                	                	            <li class="span4">
+	                
+<article class="thumbnail article content-view-embed content-view-embed-article" style="height: 278px;">    
+    <div class="caption">
+        <h4><a href="http://connect.ed-diamond.com/GNU-Linux-Magazine/GLMFHS-089/Utilisez-les-structures-de-controle-et-autres-mecanismes-de-la-programmation-Shell">Utilisez les structures de contrôle et autres mécanismes de la programmation «&nbsp;Shell&nbsp;»</a></h4>
+        <div class="muted infos_line">
+    <div>
+	    GNU/Linux Magazine HS
+	    	    <span class="numero">n°
+089</span>
+	    	     | <span class="date">mars 2017</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/9450-pelisse_romain">Romain pelisse</a>
+        </span>	    
+	    	    	    	</div>
+        <div>
+        
+		    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22environnement%20de%20bureau%22&amp;activeFacets[attr_category_lk:Domaines]=environnement%20de%20bureau"> <span class="label"> Environnement de bureau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22programmation%22&amp;activeFacets[attr_category_lk:Domaines]=programmation"> <span class="label"> Programmation</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22utilitaires%22&amp;activeFacets[attr_category_lk:Domaines]=utilitaires"> <span class="label"> Utilitaires</span></a>            </div>
+       
+</div>                <p>
+            Vous serez bientôt un maître de la programmation «&nbsp;Shell&nbsp;»&nbsp;! Après la conception d’un premier script dans notre précédent article, nous...
+        </p>
+         
+    </div>
+    <div class="article_actions text-right prix_view_">    <a href="http://connect.ed-diamond.com/GNU-Linux-Magazine/GLMFHS-089/Utilisez-les-structures-de-controle-et-autres-mecanismes-de-la-programmation-Shell" class="btn btn-success tooltip_button" data-placement="bottom" data-original-title="Lecture complète réservée aux abonnés"><i class="icon-chevron-right icon-white"></i> Lire l'extrait</a>    <div class="clearfix"></div>
+</div></article>	            </li>
+	                	            	        	            	                	                	            <li class="span4">
+	                
+<article class="thumbnail article content-view-embed content-view-embed-article" style="height: 278px;">    
+    <div class="caption">
+        <h4><a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Securisez-et-controlez-l-acces-au-Web">Sécurisez et contrôlez l'accès au Web</a></h4>
+        <div class="muted infos_line">
+    <div>
+	    Linux Pratique
+	    	    <span class="numero">n°
+100</span>
+	    	     | <span class="date">mars 2017</span> 
+	     | <span class="auteurs">                    <a href="http://connect.ed-diamond.com/auteur/view/9348-brocas_christophe">Christophe Brocas</a>
+        </span>	    
+	    	    	    	</div>
+        <div>
+        
+		    		
+             
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20r%C3%A9seau%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20r%C3%A9seau"> <span class="label"> Administration réseau</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22administration%20syst%C3%A8me%22&amp;activeFacets[attr_category_lk:Domaines]=administration%20syst%C3%A8me"> <span class="label"> Administration système</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22audio-vid%C3%A9o%22&amp;activeFacets[attr_category_lk:Domaines]=audio-vid%C3%A9o"> <span class="label"> Audio-vidéo</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22embarqu%C3%A9%22&amp;activeFacets[attr_category_lk:Domaines]=embarqu%C3%A9"> <span class="label"> Embarqué</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22s%C3%A9curit%C3%A9%22&amp;activeFacets[attr_category_lk:Domaines]=s%C3%A9curit%C3%A9"> <span class="label"> Sécurité</span></a>              
+         
+        <a href="http://connect.ed-diamond.com/content/search/?filter[]=attr_category_lk:%22web%22&amp;activeFacets[attr_category_lk:Domaines]=web"> <span class="label"> Web</span></a>            </div>
+       
+</div>                <p>
+            Nous allons voir dans cet article comment vous pouvez maîtriser l’accès au Web depuis votre réseau local domestique ou professionnel tout en...
+        </p>
+         
+    </div>
+    <div class="article_actions text-right prix_view_">    <a href="http://connect.ed-diamond.com/Linux-Pratique/LP-100/Securisez-et-controlez-l-acces-au-Web" class="btn btn-success tooltip_button" data-placement="bottom" data-original-title="Lecture complète réservée aux abonnés"><i class="icon-chevron-right icon-white"></i> Lire l'extrait</a>    <div class="clearfix"></div>
+</div></article>	            </li>
+	                	            	        	        </ul>
+	    </div>
+	</aside>
+		
+	
+	<script type="text/javascript">
+	$(document).ready(function() {	    equalHeight('.related_articles article.content-view-embed');
+	});
+	</script>    
+</article>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#toc").tocify({        selectors: 'h2,h3,h4,h5,h6',
+        context: '#article_body',
+        extendPage: false,
+        showAndHide: false,
+        theme: 'none'
+    });
+
+    articleLegendeImages();});
+</script>
+
+<!-- FIN ARTICLE -->
+
+</div><div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; top: -9999px; z-index: 100000;"><iframe id="_atssh203" title="AddThis utility frame" style="height: 1px; width: 1px; position: absolute; top: 0px; z-index: 100000; border: 0px; left: 0px;" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/sh.0d19417fd0a004d73df6a35b.html"></iframe></div><style id="service-icons-0"></style>
+
+        <!-- Footer area: START -->
+    <!-- Footer area: START -->
+
+<footer class="page_footer fullscreen">
+			
+        
+    		
+        
+    		
+        
+        <div class="container">
+        <hr>
+        <div class="menu">
+            <div class="text-center">
+                <ul class="inline">
+                    <li><a href="http://connect.ed-diamond.com/GNU-Linux-Magazine">GNU/Linux Magazine</a></li>
+                            <li><a href="http://connect.ed-diamond.com/Linux-Pratique">Linux Pratique</a></li>
+                            <li><a href="http://connect.ed-diamond.com/Linux-Essentiel">Linux Essentiel</a></li>
+                            <li><a href="http://connect.ed-diamond.com/MISC">MISC</a></li>
+                            <li><a href="http://connect.ed-diamond.com/Open-Silicium">Open Silicium</a></li>
+                            <li><a href="http://connect.ed-diamond.com/Hackable">Hackable</a></li>
+                            <li><a href="http://connect.ed-diamond.com/A-propos">A propos</a></li>
+                            </ul>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <hr>
+    </div>
+    
+            	    <div class="container">
+	        <div class="menu menu_inf">
+	            <div class="text-center">
+	                <ul class="inline">
+	    	                <li><a href="http://connect.ed-diamond.com/Outils/Infos-legales">Infos légales</a></li>
+	        	    	                <li><a href="http://connect.ed-diamond.com/Outils/Contactez-nous">Contactez-nous</a></li>
+	        	    	                </ul>
+	            </div>
+	        </div>
+	        <div class="clearfix"></div>
+	    </div>
+    
+    <div class="text-center">
+        <img src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/logo_ed.png" alt="Editions Diamond">
+    </div>
+</footer>
+<!-- Footer area: END -->
+<!-- Footer feedback area: BEGIN --><!-- Footer feedback area: END -->        <!-- Footer area: END -->
+		
+		        
+    
+    
+<!-- Footer script area: START --><script type="text/javascript" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/cd557345ac39e6b641ffc3b8f0e1ce83.js" charset="utf-8"></script>
+<!-- Footer script area: END -->    
+
+
+<div id="fb-root" class=" fb_reset"><script src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/sdk.js" async=""></script><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div><iframe name="fb_xdm_frame_http" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_http" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/ao6eUeuGXQq.html" style="border: none;"></iframe><iframe name="fb_xdm_frame_https" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" id="fb_xdm_frame_https" aria-hidden="true" title="Facebook Cross Domain Communication Frame" tabindex="-1" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/ao6eUeuGXQq(1).html" style="border: none;"></iframe></div></div><div style="position: absolute; top: -10000px; height: 0px; width: 0px;"><div></div></div></div><iframe name="oauth2relay536361930" id="oauth2relay536361930" src="./Banques en ligne _ à la découverte d&#39;EMV-CAP _ MISC-056 _ MISC _ Connect - Edition Diamond_files/postmessageRelay.html" tabindex="-1" aria-hidden="true" style="width: 1px; height: 1px; position: absolute; top: -100px;"></iframe></body></html>
