@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: EMVCAP
+Version: 1.2
+Summary: EMV-CAP device emulation script
+Home-page: http://sites.uclouvain.be/EMV-CAP/
+Author: Philippe Teuwen & Jean-Pierre Szikora
+Author-email: phil@teuwen.org
+License: Contrat Attribution-NoDerivs 2.0 Belgium http://creativecommons.org/licenses/by-nd/2.0/be/
+Description: This tool emulates an EMV-CAP device, to illustrate the article "Banque en ligne : a la decouverte d'EMV-CAP" published in MISC, issue #56 and available online at http://www.unixgarden.com/index.php/misc/banques-en-ligne-a-la-decouverte-demv-cap
+Platform: UNKNOWN
+Requires: argparse
+Requires: pycrypto
+Requires: pyscard
