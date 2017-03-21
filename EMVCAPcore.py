@@ -1,7 +1,7 @@
 # coding: latin-1
 from Crypto.Cipher import DES
 
-# Copyright 2011
+# Copyright 2011, 2012
 #   Philippe Teuwen <phil@teuwen.org>
 #   Jean-Pierre Szikora <jean-pierre.szikora@uclouvain.be>
 # Cette crŽation est mise ˆ disposition selon
@@ -554,7 +554,7 @@ def generate_otp_be(atc, ac, debug=False):
 
 
 def mix_tds(ac, mdata, debug=False):
-    des = DES.new(key=ac.decode('hex'), mode=DES.MODE_CBC)
+    des = DES.new(key=ac.decode('hex'), mode=DES.MODE_CBC, IV='\x00'*8)
     data = 'F'.join([str(i) for i in mdata])
     if len(data) % 2:
         data += 'F'
