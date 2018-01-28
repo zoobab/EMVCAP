@@ -4,7 +4,10 @@ About
 This tool emulates an EMV-CAP device, to illustrate the article "Banque en
 ligne : a la decouverte d'EMV-CAP" published in MISC #56.
 
+Screenshots
+===========
 
+![USB smartcard reader with a bank card](emvcap-usbreader.jpg)
 
 Links
 =====
