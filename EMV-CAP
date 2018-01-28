@@ -63,22 +63,22 @@ from EMVCAPcore import *
 hack_ACR38U = False
 
 def AreYouSure():
-    print """
-***************************************************************************
-Using this software for real financial operations can lead to some risks.
-Indeed advantage of using a standalone reader is is to isolate your banking
-card from big bad malwares.
-Using it in a non-secured reader is taking risk that a keylogger intercepts
-your PIN, a malware accesses to your card informations, or even intercepts
-your transaction to modify it or operates its own transactions.
-***************************************************************************
-Are you sure you want to continue?
-"""
-    resp = raw_input('If so, type \'YES\', or anything else to quit:')
-    if resp != 'YES':
-        print 'Bye!'
-        sys.exit()
-
+#    print """
+#***************************************************************************
+#Using this software for real financial operations can lead to some risks.
+#Indeed advantage of using a standalone reader is is to isolate your banking
+#card from big bad malwares.
+#Using it in a non-secured reader is taking risk that a keylogger intercepts
+#your PIN, a malware accesses to your card informations, or even intercepts
+#your transaction to modify it or operates its own transactions.
+#***************************************************************************
+#Are you sure you want to continue?
+#"""
+#    resp = raw_input('If so, type \'YES\', or anything else to quit:')
+#    if resp != 'YES':
+#        print 'Bye!'
+#        sys.exit()
+    print 'Processing...'
 
 def MyListReaders():
     print 'Available readers:'
