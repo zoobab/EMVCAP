@@ -81,6 +81,7 @@ Todo
 * make a docker image
 * add support for some banks with boobank: http://weboob.org/applications/boobank
 * add curl examples for a webbanking interface of choice
+* test a similar python program https://github.com/russss/python-emv
 
 Links
 =====
@@ -88,3 +89,4 @@ Links
 * http://connect.ed-diamond.com/MISC/MISC-056/Banques-en-ligne-a-la-decouverte-d-EMV-CAP
 * https://sites.uclouvain.be/EMV-CAP/
 * http://slideplayer.com/slide/11405563/
+* https://github.com/russss/python-emv
