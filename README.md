@@ -73,6 +73,27 @@ EMV-CAP also works on Mac OSX (tested with Yosemite 10.10.5), you will need to i
 * swig: ```$ brew install swig```
 * pycrypto and pyscard: ```$ sudo pip install pycrypto pyscard ```
 
+Windows 10 support
+==================
+
+I have attempted to install the same dependencies for OSX, with cygwin installed, python, gcc, python-pip, etc... I managed to do a ```pip install pycrypto pyscard```. But when I try to run the M1 from bash, I got a protocol error (I have to force the second reader with the -r flag):
+
+```
+$ EMV-CAP -r 2 -m2 1000 123456
+Traceback (most recent call last):
+  File "/usr/bin/EMV-CAP", line 321, in <module>
+    (RAPDU, sw1, sw2) = myTransmit(connection, CAPDU, args.debug)
+  File "/usr/bin/EMV-CAP", line 188, in myTransmit
+    (RAPDU, sw1, sw2) = connection.transmit(hex2lint(CAPDU))
+  File "/usr/lib/python2.7/site-packages/smartcard/CardConnectionDecorator.py", line 82, in transmit
+    return self.component.transmit(bytes, protocol)
+  File "/usr/lib/python2.7/site-packages/smartcard/CardConnection.py", line 146, in transmit
+    data, sw1, sw2 = self.doTransmit(bytes, protocol)
+  File "/usr/lib/python2.7/site-packages/smartcard/pcsc/PCSCCardConnection.py", line 196, in doTransmit
+    'CardConnection.RAW_protocol')
+smartcard.Exceptions.CardConnectionException: Invalid protocol in transmit: must be CardConnection.T0_protocol, CardConnection.T1_protocol, or CardConnection.RAW_protocol
+```
+
 Todo
 ====
 
