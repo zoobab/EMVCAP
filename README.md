@@ -76,7 +76,7 @@ EMV-CAP also works on Mac OSX (tested with Yosemite 10.10.5), you will need to i
 Windows 10 support
 ==================
 
-I have attempted to install the same dependencies for OSX, with cygwin installed, python, gcc, python-pip, etc... I managed to do a ```pip install pycrypto pyscard``` (Successfully installed pycrypto-2.6.1 pyscard-1.9.7). But when I try to run the M1 from bash, I got a protocol error (I have to force the second reader with the -r flag):
+I have attempted to install the same dependencies for OSX, with cygwin installed, python, gcc, python-pip, etc... I managed to do a ```pip install pycrypto pyscard``` (Successfully installed pycrypto-2.6.1 pyscard-1.9.7). But when I try to run the M2 from bash, I got a protocol error (I have to force the second reader with the -r flag):
 
 ```
 $ EMV-CAP -r 2 -m2 1000 123456
