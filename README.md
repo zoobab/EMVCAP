@@ -104,6 +104,11 @@ Todo
 * add curl examples for a webbanking interface of choice
 * test a similar python program https://github.com/russss/python-emv
 
+License
+=======
+
+Creative Commons Paternité - Pas de Modification 2.0 Belgique (CC BY-ND 2.0 BE): https://creativecommons.org/licenses/by-nd/2.0/be/
+
 Links
 =====
 
