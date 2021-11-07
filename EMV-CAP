@@ -136,7 +136,7 @@ def MyConnect(reader_match=None, debug=False):
         hack_ACR38U = True
     try:
         connection.connect()
-    except smartcard.Exceptions.CardConnectionException:
+    except (smartcard.Exceptions.CardConnectionException, smartcard.Exceptions.NoCardException):
         print('No card found!')
         del(connection)
         return None
