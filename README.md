@@ -101,7 +101,7 @@ Todo
 * make debian packages
 * make a pip package
 * make a docker image
-* add support for some banks with boobank: http://weboob.org/applications/boobank
+* add support for some banks with boobank: https://woob.tech/applications/bank
 * add curl examples for a webbanking interface of choice
 * test a similar python program https://github.com/russss/python-emv
 
