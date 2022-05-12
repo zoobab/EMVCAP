@@ -1,4 +1,8 @@
 [![noswpatv3](http://zoobab.wdfiles.com/local--files/start/noupcv3.jpg)](https://ffii.org/donate-now-to-save-europe-from-software-patents-says-ffii/)
+
+NOTE: the original author relicenced this software under GPLv3 here: https://github.com/doegox/EMV-CAP
+NOTE2: I will update this repo with Doegox's changes and Python2 and Python3 support when I will have some time
+
 About
 =====
 
